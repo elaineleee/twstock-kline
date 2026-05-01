@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+
+# Data we DON'T commit (large or rebuildable on each run)
+data/prices/             # 5y price panel parquet, ~50MB
+data/universe/           # rebuilt by tw_universe.py daily
+data/launchd.*.log
+data/latest_top300.parquet
+
+# We DO commit:
+#   data/briefs/*.json            (front-end reads these)
+#   data/charts/*.html            (Plotly via CDN, ~5KB each)
+#   data/pattern_passlist.json    (event-study output, regenerate quarterly)
+
+# Local Claude Code preview config
+.claude/launch.json

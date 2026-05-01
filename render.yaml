@@ -1,0 +1,15 @@
+# Render infrastructure-as-code spec.
+# Render reads this on connect and provisions the service automatically.
+
+services:
+  - type: web
+    name: twstock-kline
+    runtime: python
+    plan: free
+    region: singapore         # closest free region to Taiwan
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: gunicorn server:app --bind 0.0.0.0:$PORT --workers 2 --timeout 60
+    autoDeploy: true          # rebuild on every push to main
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7

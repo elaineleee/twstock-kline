@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#eef3f6">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="台股K線早報">
+<title>台股K線早報</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,500&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+TC:wght@400;600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body data-loaded="false">
+
+<header class="masthead">
+  <div class="masthead__title">
+    <h1><span class="zh">台股K線早報</span><span class="en">昨日完成訊號</span></h1>
+    <button id="refreshBtn" class="masthead__refresh" aria-label="重新整理">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+        <path d="M3 12a9 9 0 0 1 15.5-6.3M21 12a9 9 0 0 1-15.5 6.3M21 4v5h-5M3 20v-5h5"/>
+      </svg>
+    </button>
+  </div>
+  <div id="meta" class="masthead__meta">載入中⋯</div>
+</header>
+
+<section class="tutorial-panel" aria-label="K 線教程" id="tutorialPanel">
+  <button class="tutorial-panel__toggle" id="tutorialToggle" aria-expanded="true" aria-controls="tutorialBody">
+    <div>
+      <div class="tutorial-panel__eyebrow">使用前必讀</div>
+      <h2>每日觀察清單，不是買賣系統</h2>
+    </div>
+    <span class="tutorial-panel__chevron" aria-hidden="true">▾</span>
+  </button>
+  <div class="tutorial-panel__body" id="tutorialBody">
+    <p class="tutorial-panel__lead">這個 APP 是台股 K 線形態觀察清單。核心原則是<strong>只看昨日</strong>／上一完整週已收完的 K 線，不看今天或本週仍會變動的線，然後標記是否出現「高確信形態」。<strong>非交易建議</strong>。</p>
+
+    <div class="tutorial-panel__doc">
+      <section class="tutorial-section">
+        <h3>① 使用說明：怎樣使用</h3>
+        <ol class="tutorial-section__steps">
+          <li>選時間框架：
+            <ul style="margin-top:4px;">
+              <li><strong>日線</strong>＝<strong>昨天那一根日 K 線</strong>（已收盤）。如果今天是週五，看的就是週四的那根；如果今天是週一，看的是上週五的那根。<strong>不會顯示今天還在動的那根</strong>。</li>
+              <li><strong>週線</strong>＝<strong>上週那一整根週 K 線</strong>（週一到週五整週已收完）。週 K 一定要等到週五收盤後才算完整，所以 APP 永遠用上週已固定的那根。</li>
+              <li><strong>自選股</strong>＝你自己挑的台股；APP 會分別在日線和週線清單中找這些股票。</li>
+            </ul>
+          </li>
+          <li>選股票範圍：<strong>Top 50/100/200/300</strong>。</li>
+          <li>逐張卡查看：收盤價、RSI 強弱、離 20 日線及 200 日線的距離、形態解讀。</li>
+          <li>想看 K 線圖：點「打開圖表」可切換日／週線。<strong>放大有兩種方式</strong>：（A）點一下圖表 → 自動放大到訊號日附近；（B）按住滑鼠／手指拖選任意一段範圍。再點一下空白處還原。</li>
+        </ol>
+      </section>
+
+      <section class="tutorial-section">
+        <h3>② Top N 是甚麼</h3>
+        <p>它不是分數，也不是推薦排名。Top N 是按近 20 個交易日平均成交額排序，取最活躍的前 N 隻台股（含上市、上櫃、ETF）。Top 50＝最聚焦在大成交活躍股；Top 300＝覆蓋更廣，也包含較冷門的股票。<strong>日線和週線各自獨立篩</strong>——同一個 Top N 下，兩個列表的股票不一定相同。</p>
+      </section>
+
+      <section class="tutorial-section">
+        <h3>③ 教材根基：大道至簡</h3>
+        <p>形態定義來自 Steve Nison《日本蠟燭圖技術》——早晨之星 第66–70頁、看漲孕線 第88–89頁、向上窗口 第138–147頁、倒錘子線 第83–85頁。</p>
+        <p>Nison 的核心主張是<strong>「大道至簡，只看 K 線」</strong>。他在書中明言：許多西方技術指標（RSI、MACD、移動平均、布林帶、隨機指數、趨勢線）其實是<strong>「換湯不換藥」</strong>——用不同公式重複表達同一段價格資訊，看起來是好幾個獨立工具，本質上是同一段資訊被重講多次。他用「<strong>金砂提煉</strong>」做比喻：原始 OHLC 四個數據的「含金量」是天花板，疊十個同根工具也突破不了。</p>
+        <p>蠟燭圖跟西方指標屬於不同根基。同樣的開高低收，蠟燭圖另開一條路解讀市場心理（實體＝開收盤的力量，影線＝盤中拉扯），訊號常常比西方傳統訊號更早出現。所以這個 APP 不堆砌指標，只看 K 線本身。</p>
+      </section>
+
+      <section class="tutorial-section">
+        <h3>④ 事件研究在 APP 裡的作用</h3>
+        <p>事件研究<strong>不是買賣信號本身，而是過濾器</strong>。系統把過去約 5 年、台股成交額 Top 100 內每一次形態觸發的日子標記出來，量度之後 1 / 3 / 5 / 20 個交易日的平均回報，再扣除<strong> 0.585% 成本門檻</strong>（手續費 0.1425%×2 + 證交稅 0.3%）。只有樣本數 <strong>N≥30</strong>、統計檢定 <strong>|t|>2</strong>，且方向符合事件研究結果的形態，才會進入 APP 清單；未通過的形態即使在圖上好看，也不顯示。</p>
+        <p>目前清單分兩種用途：<strong>買入觀察：早晨之星、看漲孕線、向上窗口、倒錘子線</strong>；<strong>賣出／避開提醒：流星線、大陰線、看跌吞沒、向下窗口</strong>。賣出類不是叫你做空，而是提醒已有持倉的人檢查風險。</p>
+      </section>
+    </div>
+  </div>
+</section>
+
+<nav class="universe">
+  <div class="universe__label">選擇股票範圍</div>
+  <div class="universe__chips" role="tablist">
+    <button class="chip" data-n="50" role="tab">前50隻</button>
+    <button class="chip is-active" data-n="100" role="tab">前100隻</button>
+    <button class="chip" data-n="200" role="tab">前200隻</button>
+    <button class="chip" data-n="300" role="tab">前300隻</button>
+  </div>
+</nav>
+
+<nav class="tabs" role="tablist" aria-label="時間框架">
+  <button class="tab is-active" data-section="daily" role="tab">日線</button>
+  <button class="tab" data-section="weekly" role="tab">週線</button>
+  <button class="tab" data-section="watchlist" role="tab">自選股</button>
+</nav>
+
+<div class="watchlist-toolbar" id="watchlistToolbar" hidden>
+  <div class="watchlist-toolbar__count" id="watchlistCount">未設定自選股。</div>
+  <button class="watchlist-toolbar__edit" id="watchlistEdit">編輯</button>
+</div>
+
+<main id="content">
+  <div class="loading">載入訊號⋯</div>
+</main>
+
+<template id="signalTpl">
+  <article class="signal">
+    <header class="signal__head">
+      <span class="signal__tag" data-field="tag" hidden></span>
+      <div class="signal__codeline">
+        <span class="signal__code"></span>
+        <span class="signal__name"></span>
+      </div>
+      <div class="signal__pattern"></div>
+      <div class="signal__plain" data-field="plain"></div>
+    </header>
+    <div class="signal__numbers">
+      <div class="num">
+        <span class="num__label">收盤價</span>
+        <span class="num__value num__value--big" data-field="close"></span>
+      </div>
+      <div class="num">
+        <span class="num__label">RSI強弱</span>
+        <span class="num__value" data-field="rsi"></span>
+      </div>
+      <div class="num">
+        <span class="num__label">離20日線</span>
+        <span class="num__value" data-field="ma20"></span>
+      </div>
+      <div class="num">
+        <span class="num__label">離200日線</span>
+        <span class="num__value" data-field="ma200"></span>
+      </div>
+    </div>
+    <div class="signal__note">
+      <strong>RSI提示</strong>
+      <span data-field="rsihelp"></span>
+    </div>
+    <button class="signal__chartcta" data-field="chartcta">
+      <span>打開圖表</span>
+      <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6">
+        <path d="M6 4l5 4-5 4"/>
+      </svg>
+    </button>
+  </article>
+</template>
+
+<template id="nosignalTpl">
+  <article class="signal signal--nosignal">
+    <div class="signal__codeline">
+      <span class="signal__code"></span>
+      <span class="signal__name"></span>
+    </div>
+    <div class="signal__pattern" data-field="status">今日無高確信信號</div>
+  </article>
+</template>
+
+<div id="editor" class="editor" aria-hidden="true">
+  <div class="editor__scrim" data-close></div>
+  <div class="editor__panel">
+    <header class="editor__head">
+      <h2>編輯自選股</h2>
+      <button class="editor__close" data-close aria-label="關閉">×</button>
+    </header>
+    <div class="editor__body">
+      <p class="editor__hint">每行一個台股代碼，例如 <code>2330.TW</code>（上市）或 <code>6488.TWO</code>（上櫃）。也可以直接寫 4 位數字（系統會補上 .TW；若你已知是上櫃，請寫 .TWO）。每天資料更新時，APP 會自動標記每隻自選股是否出現買入或賣出信號。</p>
+      <textarea class="editor__textarea" id="watchlistInput" placeholder="2330.TW&#10;2317.TW&#10;6488.TWO"></textarea>
+      <div>
+        <div style="font-size:13px;color:var(--text-soft);margin-bottom:6px;">快速加入：</div>
+        <div class="editor__quickadd" id="watchlistQuickadd">
+          <button data-add="2330.TW">2330.TW 台積電</button>
+          <button data-add="2317.TW">2317.TW 鴻海</button>
+          <button data-add="2454.TW">2454.TW 聯發科</button>
+          <button data-add="2308.TW">2308.TW 台達電</button>
+          <button data-add="2891.TW">2891.TW 中信金</button>
+          <button data-add="2882.TW">2882.TW 國泰金</button>
+          <button data-add="0050.TW">0050.TW 元大台灣50</button>
+          <button data-add="6488.TWO">6488.TWO 環球晶</button>
+        </div>
+      </div>
+    </div>
+    <div class="editor__foot">
+      <button class="editor__btn editor__btn--secondary" data-close>取消</button>
+      <button class="editor__btn editor__btn--primary" id="watchlistSave">儲存</button>
+    </div>
+  </div>
+</div>
+
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal__scrim"></div>
+  <div class="modal__panel">
+    <header class="modal__head">
+      <div>
+        <div class="modal__code"></div>
+        <div class="modal__pattern"></div>
+      </div>
+      <button class="modal__close" aria-label="關閉">×</button>
+    </header>
+    <div class="modal__tabs" role="tablist" aria-label="圖表週期">
+      <button class="modal__tab is-active" data-chart-tab="daily" role="tab">日線圖</button>
+      <button class="modal__tab" data-chart-tab="weekly" role="tab">週線圖</button>
+    </div>
+    <div class="modal__chart"></div>
+  </div>
+</div>
+
+<footer class="disclosure">
+  <p>基礎教材：Steve Nison《日本蠟燭圖技術》。篩選方法：Nison 形態 + RSI(14) + 均線距離，再用台股歷史事件研究驗證（5 年 Top 100、扣 0.585% 成本、N≥30、|t|&gt;2）。形態只代表一個觀察線索，<strong>非交易建議</strong>。</p>
+</footer>
+
+<script src="/static/app.js" defer></script>
+</body>
+</html>
