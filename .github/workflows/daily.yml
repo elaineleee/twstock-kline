@@ -1,10 +1,13 @@
 name: Daily morning brief
 
 on:
-  # 14:30 TWT == 06:30 UTC, weekdays only.
-  # GitHub cron runs in UTC; the schedule itself can drift by a few minutes.
+  # 14:30 TWT == 06:30 UTC.
+  # Mon–Fri  : pick up the prior trading day's now-completed bar.
+  # Saturday : finalise Friday's daily + weekly bar (Friday afternoon's run
+  #            misses it because the bar is still "today" on Friday).
+  # GitHub cron runs in UTC and can drift by a few minutes.
   schedule:
-    - cron: '30 6 * * 1-5'
+    - cron: '30 6 * * 1-6'
   # Allow manual run from the Actions tab.
   workflow_dispatch:
 
