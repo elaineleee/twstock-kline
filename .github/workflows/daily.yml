@@ -16,6 +16,12 @@ on:
 permissions:
   contents: write
 
+# Run JS-based actions on Node 24. checkout@v4 / setup-python@v5 still ship a
+# Node 20 binary; this env tells the runner to use the bundled Node 24 instead,
+# silencing the September-2026 deprecation warning.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 concurrency:
   group: daily-brief
   cancel-in-progress: false
