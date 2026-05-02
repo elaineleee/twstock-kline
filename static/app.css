@@ -225,7 +225,15 @@ main {
   font-size: 12px;
 }
 .signal[data-direction="買入"] { border-left-color: var(--buy); }
-.signal[data-direction="賣出"] { border-left-color: var(--sell); }
+.signal[data-direction="賣出"] {
+  border-left-color: var(--sell);
+  background: var(--bg-0);
+  opacity: 0.92;
+}
+.signal[data-direction="賣出"] .signal__pattern {
+  color: var(--text-soft);
+  font-weight: 400;
+}
 
 .signal__head { display: grid; gap: 4px; }
 .signal__tag {

@@ -58,11 +58,13 @@ def fetch_latest_prices(symbols: list[str], days: int = HISTORY_DAYS) -> dict[st
 
 
 def cut_to_completed_bars(df: pd.DataFrame, today: dt.date) -> pd.DataFrame:
-    """Drop any in-progress bar (i.e., a bar dated 'today')."""
+    """Drop bars dated strictly in the future. Today's bar is kept on the
+    assumption that the cron runs after market close (14:30 TWT, 1h after
+    13:30 close); on holidays no bar exists for today so this is a no-op."""
     if df.empty:
         return df
     last = df.index[-1].date()
-    if last >= today:
+    if last > today:
         return df.iloc[:-1]
     return df
 
@@ -79,11 +81,12 @@ def resample_weekly(daily: pd.DataFrame) -> pd.DataFrame:
 
 
 def cut_weekly_to_completed(weekly: pd.DataFrame, today: dt.date) -> pd.DataFrame:
-    """Drop the currently-in-progress weekly bar (week-end >= today)."""
+    """Drop the weekly bar only if its end-Friday is strictly after today.
+    On a Friday (market closed for week) or Friday-holiday this keeps the bar."""
     if weekly.empty:
         return weekly
     last_week_end = weekly.index[-1].date()
-    if last_week_end >= today:
+    if last_week_end > today:
         return weekly.iloc[:-1]
     return weekly
 

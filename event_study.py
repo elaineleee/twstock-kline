@@ -32,7 +32,8 @@ MIN_T_STAT = 2.0
 ROUND_TRIP_COST = 0.00585  # 0.1425% × 2 fee + 0.3% transaction tax = 0.585%
 HORIZONS = (1, 3, 5, 20)
 GATE_HORIZON = 5  # days used for the pass/fail decision
-LOOKBACK_YEARS = 5
+LOOKBACK_YEARS = 10  # 10y captures 2018 correction + 2020 covid crash, giving
+                     # sell-side patterns enough bear-market samples to pass the gate.
 TOP_FOR_STUDY = 100
 
 
@@ -121,17 +122,26 @@ def _stats_block(returns: list[float], direction: str) -> dict:
 
 
 def _gate(by_pattern: dict[str, dict[int, list[float]]]) -> dict[str, dict]:
+    """Two-tier gate: BUY patterns must clear cost + |t|>2 in expected direction
+    (a real edge after fees). SELL patterns just need N≥30 — they're shown as
+    risk reminders for existing holders, not as short-side trade signals."""
     out: dict[str, dict] = {}
     for pname, by_h in by_pattern.items():
         direction = patterns.PATTERN_DIRECTION[pname]
         horizons = {f"h{h}": _stats_block(by_h[h], direction) for h in HORIZONS}
         gate = horizons[f"h{GATE_HORIZON}"]
-        passes = (gate["n"] >= MIN_SAMPLES
-                  and abs(gate["t"]) >= MIN_T_STAT
-                  and gate["mean_net"] > 0)
+        if direction == "買入":
+            passes = (gate["n"] >= MIN_SAMPLES
+                      and gate["t"] >= MIN_T_STAT
+                      and gate["mean_net"] > 0)
+            tier = "strong" if passes else "fail"
+        else:
+            passes = gate["n"] >= MIN_SAMPLES
+            tier = "warning" if passes else "fail"
         out[pname] = {
             "direction": direction,
             "pass": bool(passes),
+            "tier": tier,
             "gate_horizon": GATE_HORIZON,
             **horizons,
         }

@@ -87,9 +87,12 @@ function fmtPct(v) {
 function renderSignal(s) {
   const tpl = $("#signalTpl").content.cloneNode(true);
   const root = tpl.querySelector(".signal");
+  root.dataset.direction = s.direction;
   const tag = $("[data-field=\"tag\"]", root);
   tag.hidden = false;
-  tag.textContent = s.direction;
+  // Buy patterns clear the strict |t|>2 gate → "buy watch".
+  // Sell patterns are softer (gate is N≥30 only) → "risk reminder".
+  tag.textContent = s.direction === "買入" ? "買入觀察" : "風險提醒";
   tag.dataset.direction = s.direction;
   $(".signal__code", root).textContent = s.code;
   $(".signal__name", root).textContent = s.name || "";
