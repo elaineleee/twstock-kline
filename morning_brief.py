@@ -9,6 +9,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import logging
+import math
 from pathlib import Path
 
 import pandas as pd
@@ -28,6 +29,40 @@ PRICES_LATEST = ROOT / "data" / "prices" / "latest_top300.parquet"
 
 UNIVERSE_SIZES = (50, 100, 200, 300)
 HISTORY_DAYS = 250  # enough for MA200 daily
+
+
+def _sanitize(v):
+    """Recursively convert NaN/Inf floats to None so the JSON is parseable
+    by JSON.parse on the front-end (which rejects NaN literals)."""
+    if isinstance(v, float):
+        return None if (math.isnan(v) or math.isinf(v)) else v
+    if isinstance(v, dict):
+        return {k: _sanitize(x) for k, x in v.items()}
+    if isinstance(v, (list, tuple)):
+        return [_sanitize(x) for x in v]
+    return v
+
+
+def _dump_json(obj) -> str:
+    return json.dumps(_sanitize(obj), ensure_ascii=False, indent=2, allow_nan=False)
+
+
+def _scrub_nan(obj):
+    """Recursively replace NaN/Inf floats with None for strict JSON output."""
+    import math
+    if isinstance(obj, float):
+        return None if (math.isnan(obj) or math.isinf(obj)) else obj
+    if isinstance(obj, dict):
+        return {k: _scrub_nan(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_scrub_nan(v) for v in obj]
+    return obj
+
+
+def _dump_json(brief: dict) -> str:
+    """Strict-JSON dump (no NaN, no Infinity tokens — those break browsers)."""
+    return json.dumps(_scrub_nan(brief), ensure_ascii=False, indent=2,
+                      allow_nan=False)
 
 
 # ── Price fetch ─────────────────────────────────────────────────────────
@@ -101,9 +136,12 @@ def _pct(now: float, ref: float) -> float | None:
 
 def build_signal(row: dict, df: pd.DataFrame, weekly_df: pd.DataFrame, kind: str,
                  pattern_name: str, signal_date: dt.date,
-                 weekly_signal_date: dt.date) -> dict:
+                 weekly_signal_date: dt.date) -> dict | None:
     src = df if kind == "daily" else weekly_df
-    close = float(src["Close"].iloc[-1])
+    raw_close = src["Close"].iloc[-1]
+    if pd.isna(raw_close):
+        return None
+    close = float(raw_close)
 
     # RSI & MA come from the daily series regardless of kind, to match the
     # reference layout: RSI(14) on daily, MA distances on daily.
@@ -226,14 +264,16 @@ def generate(force_universe_refresh: bool = False) -> dict[int, Path]:
             if bool(mask_d.iloc[-1]) and pname in daily_pass:
                 sig = build_signal(row, df, weekly_df, "daily", pname,
                                     daily_signal_date, weekly_signal_date)
-                per_symbol_signals.append({"rank": int(row["rank"]), "kind": "daily", "sig": sig})
+                if sig is not None:
+                    per_symbol_signals.append({"rank": int(row["rank"]), "kind": "daily", "sig": sig})
 
             if not weekly_df.empty:
                 mask_w = patterns.DETECTORS[pname](weekly_df)
                 if bool(mask_w.iloc[-1]) and pname in weekly_pass:
                     sig = build_signal(row, df, weekly_df, "weekly", pname,
                                         daily_signal_date, weekly_signal_date)
-                    per_symbol_signals.append({"rank": int(row["rank"]), "kind": "weekly", "sig": sig})
+                    if sig is not None:
+                        per_symbol_signals.append({"rank": int(row["rank"]), "kind": "weekly", "sig": sig})
 
     LOG.info("per_symbol_signals: %d (ok=%d fail=%d)",
              len(per_symbol_signals), freshness_ok, freshness_fail)
@@ -268,7 +308,7 @@ def generate(force_universe_refresh: bool = False) -> dict[int, Path]:
             "weekly": weekly_signals,
         }
         out = BRIEFS_DIR / f"brief_{n}.json"
-        out.write_text(json.dumps(brief, ensure_ascii=False, indent=2))
+        out.write_text(_dump_json(brief))
         written[n] = out
         LOG.info("brief[%d]: daily=%d weekly=%d → %s", n,
                  len(daily_signals), len(weekly_signals), out)
