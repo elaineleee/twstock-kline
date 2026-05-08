@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name  "twstock-kline-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/briefs data/charts data/pattern_passlist.json
+          git add data/briefs data/charts data/pattern_passlist.json data/universe/latest.parquet
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
             exit 0

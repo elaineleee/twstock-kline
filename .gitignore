@@ -20,7 +20,8 @@ venv/
 # - data/launchd.*.log
 # - data/latest_top300.parquet
 data/prices/
-data/universe/
+data/universe/*.parquet
+!data/universe/latest.parquet
 data/launchd.out.log
 data/launchd.err.log
 

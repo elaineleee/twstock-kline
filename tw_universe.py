@@ -35,10 +35,23 @@ _CODE_TWSE = re.compile(r"^\d{4}$|^00\d{2,3}$")  # 4-digit equity OR 00xxx ETF
 _CODE_TPEX = re.compile(r"^\d{4}$|^\d{6}$")  # 4-digit equity OR 6-digit ETF
 
 
-def _http_get_json(url: str) -> list[dict]:
-    r = cr.get(url, timeout=30, impersonate="chrome")
-    r.raise_for_status()
-    return r.json()
+def _http_get_json(url: str, retries: int = 4, backoff: float = 3.0) -> list[dict]:
+    """TWSE/TPEx OpenAPI is flaky from non-TW IPs (resets TLS at random).
+    Retry with linear backoff before bubbling the error to the caller."""
+    last: Exception | None = None
+    for attempt in range(retries):
+        try:
+            r = cr.get(url, timeout=30, impersonate="chrome")
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:  # SSLError, ConnectionError, HTTPError…
+            last = e
+            LOG.warning("openapi attempt %d/%d failed: %s", attempt + 1, retries, e)
+            if attempt < retries - 1:
+                import time
+                time.sleep(backoff * (attempt + 1))
+    assert last is not None
+    raise last
 
 
 def _to_float(v) -> float:
@@ -157,14 +170,27 @@ def cache_path(date: dt.date) -> Path:
     return DATA_DIR / f"{date.isoformat()}.parquet"
 
 
+LATEST_PATH = DATA_DIR / "latest.parquet"
+
+
 def load_or_build(date: dt.date | None = None, force_refresh: bool = False) -> pd.DataFrame:
+    """Build today's ranked universe, or fall back to the last committed
+    snapshot if TWSE/TPEx OpenAPI can't be reached (common from foreign IPs)."""
     date = date or dt.date.today()
     p = cache_path(date)
     if p.exists() and not force_refresh:
         return pd.read_parquet(p)
-    ranked = build_ranked_universe(top_n=300)
+    try:
+        ranked = build_ranked_universe(top_n=300)
+    except Exception as e:
+        if LATEST_PATH.exists():
+            LOG.warning("Universe rebuild failed (%s) — falling back to %s",
+                        e, LATEST_PATH.name)
+            return pd.read_parquet(LATEST_PATH)
+        raise
     ranked.to_parquet(p, index=False)
-    LOG.info("Saved universe → %s (%d rows)", p, len(ranked))
+    ranked.to_parquet(LATEST_PATH, index=False)  # always overwrite for fallback
+    LOG.info("Saved universe → %s + latest.parquet (%d rows)", p, len(ranked))
     return ranked
 
 
