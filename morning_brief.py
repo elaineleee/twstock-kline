@@ -119,14 +119,23 @@ def resample_weekly(daily: pd.DataFrame) -> pd.DataFrame:
     }).dropna(how="all")
 
 
-def cut_weekly_to_completed(weekly: pd.DataFrame, today: dt.date) -> pd.DataFrame:
-    """Drop the weekly bar only if its end-Friday is strictly after today.
-    On a Friday (market closed for week) or Friday-holiday this keeps the bar."""
-    if weekly.empty:
+def cut_weekly_to_completed(weekly: pd.DataFrame, daily: pd.DataFrame,
+                             today: dt.date) -> pd.DataFrame:
+    """Drop trailing weekly bars that aren't truly complete:
+    - Future weeks (Friday-end > today)
+    - Weeks whose Friday isn't in the daily series — meaning either Yahoo
+      hasn't posted that Friday's Close yet, or that Friday was a TW holiday.
+      In both cases the weekly aggregate is missing real Friday OHLCV, so
+      we fall back to the previous week's bar."""
+    if weekly.empty or daily.empty:
         return weekly
-    last_week_end = weekly.index[-1].date()
-    if last_week_end > today:
-        return weekly.iloc[:-1]
+    daily_dates = {d.date() for d in daily.index}
+    while not weekly.empty:
+        last_week_end = weekly.index[-1].date()
+        if last_week_end > today or last_week_end not in daily_dates:
+            weekly = weekly.iloc[:-1]
+        else:
+            break
     return weekly
 
 
@@ -236,7 +245,7 @@ def generate(force_universe_refresh: bool = False) -> dict[int, Path]:
         raise RuntimeError("No completed daily bars in fetch — universe rebuild needed")
     daily_signal_date = sample_daily.index[-1].date()
 
-    sample_weekly = cut_weekly_to_completed(resample_weekly(sample_daily), today)
+    sample_weekly = cut_weekly_to_completed(resample_weekly(sample_daily), sample_daily, today)
     if sample_weekly.empty:
         raise RuntimeError("No completed weekly bars after cut")
     weekly_signal_date = sample_weekly.index[-1].date()
@@ -258,7 +267,7 @@ def generate(force_universe_refresh: bool = False) -> dict[int, Path]:
         if df.empty:
             freshness_fail += 1
             continue
-        weekly_df = cut_weekly_to_completed(resample_weekly(df), today)
+        weekly_df = cut_weekly_to_completed(resample_weekly(df), df, today)
         freshness_ok += 1
 
         row = urow.to_dict()
