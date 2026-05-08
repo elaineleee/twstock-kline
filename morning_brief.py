@@ -93,9 +93,13 @@ def fetch_latest_prices(symbols: list[str], days: int = HISTORY_DAYS) -> dict[st
 
 
 def cut_to_completed_bars(df: pd.DataFrame, today: dt.date) -> pd.DataFrame:
-    """Drop bars dated strictly in the future. Today's bar is kept on the
-    assumption that the cron runs after market close (14:30 TWT, 1h after
-    13:30 close); on holidays no bar exists for today so this is a no-op."""
+    """Drop bars that are not fully completed. A bar counts as complete only
+    when Yahoo has posted a Close (sometimes lags by hours after TW close on
+    weekends / off-peak). Also drop any bar dated strictly after today as a
+    cheap sanity check against tz mishaps."""
+    if df.empty:
+        return df
+    df = df.dropna(subset=["Close"])
     if df.empty:
         return df
     last = df.index[-1].date()
