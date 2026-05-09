@@ -8,7 +8,7 @@
   "signal_date_pretty": "Friday · 08 May 2026",
   "weekly_signal_date": "2026-05-08",
   "weekly_signal_date_pretty": "週始 08 May 2026",
-  "run_time": "02:32",
+  "run_time": "08:16",
   "freshness": {
     "ok": 300,
     "fail": 0,
@@ -107,66 +107,6 @@
       }
     },
     {
-      "code": "00919.TW",
-      "raw_code": "00919",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "群益台灣精選高息",
-      "date": "2026-05-08",
-      "close": 25.43,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 76.34,
-      "ma_dist": {
-        "ma10": 6.14,
-        "ma20": 7.75,
-        "ma50": 8.64,
-        "ma200_d": 14.06,
-        "ma200_w": null
-      },
-      "chart": "charts/00919_TW_daily_20260508.html",
-      "chart_daily": "charts/00919_TW_daily_20260508.html",
-      "chart_weekly": "charts/00919_TW_weekly_20260508.html",
-      "charts": {
-        "daily": "charts/00919_TW_daily_20260508.html",
-        "weekly": "charts/00919_TW_weekly_20260508.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-05-08",
-        "weekly": "2026-05-08"
-      }
-    },
-    {
-      "code": "0056.TW",
-      "raw_code": "0056",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "元大高股息",
-      "date": "2026-05-08",
-      "close": 44.72,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 76.39,
-      "ma_dist": {
-        "ma10": 6.84,
-        "ma20": 8.46,
-        "ma50": 12.73,
-        "ma200_d": 20.32,
-        "ma200_w": null
-      },
-      "chart": "charts/0056_TW_daily_20260508.html",
-      "chart_daily": "charts/0056_TW_daily_20260508.html",
-      "chart_weekly": "charts/0056_TW_weekly_20260508.html",
-      "charts": {
-        "daily": "charts/0056_TW_daily_20260508.html",
-        "weekly": "charts/0056_TW_weekly_20260508.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-05-08",
-        "weekly": "2026-05-08"
-      }
-    },
-    {
       "code": "2059.TW",
       "raw_code": "2059",
       "market": "TWSE",
@@ -190,36 +130,6 @@
       "charts": {
         "daily": "charts/2059_TW_daily_20260508.html",
         "weekly": "charts/2059_TW_weekly_20260508.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-05-08",
-        "weekly": "2026-05-08"
-      }
-    },
-    {
-      "code": "0050.TW",
-      "raw_code": "0050",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "元大台灣50",
-      "date": "2026-05-08",
-      "close": 97.7,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 79.81,
-      "ma_dist": {
-        "ma10": 5.6,
-        "ma20": 11.09,
-        "ma50": 20.49,
-        "ma200_d": 48.73,
-        "ma200_w": null
-      },
-      "chart": "charts/0050_TW_daily_20260508.html",
-      "chart_daily": "charts/0050_TW_daily_20260508.html",
-      "chart_weekly": "charts/0050_TW_weekly_20260508.html",
-      "charts": {
-        "daily": "charts/0050_TW_daily_20260508.html",
-        "weekly": "charts/0050_TW_weekly_20260508.html"
       },
       "chart_focus_dates": {
         "daily": "2026-05-08",
@@ -732,6 +642,36 @@
       "charts": {
         "daily": "charts/3711_TW_daily_20260508.html",
         "weekly": "charts/3711_TW_weekly_20260508.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-05-08",
+        "weekly": "2026-05-08"
+      }
+    },
+    {
+      "code": "0056.TW",
+      "raw_code": "0056",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "元大高股息",
+      "date": "2026-05-08",
+      "close": 44.85,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 76.81,
+      "ma_dist": {
+        "ma10": 6.09,
+        "ma20": 8.02,
+        "ma50": 12.74,
+        "ma200_d": 20.51,
+        "ma200_w": null
+      },
+      "chart": "charts/0056_TW_daily_20260508.html",
+      "chart_daily": "charts/0056_TW_daily_20260508.html",
+      "chart_weekly": "charts/0056_TW_weekly_20260508.html",
+      "charts": {
+        "daily": "charts/0056_TW_daily_20260508.html",
+        "weekly": "charts/0056_TW_weekly_20260508.html"
       },
       "chart_focus_dates": {
         "daily": "2026-05-08",
