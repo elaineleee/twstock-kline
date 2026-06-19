@@ -1,14 +1,14 @@
 {
   "universe_size": 50,
-  "generated_date": "2026-06-18",
-  "generated_date_pretty": "Thursday · 18 June 2026",
-  "today": "2026-06-18",
-  "today_pretty": "Thursday · 18 June 2026",
+  "generated_date": "2026-06-19",
+  "generated_date_pretty": "Friday · 19 June 2026",
+  "today": "2026-06-19",
+  "today_pretty": "Friday · 19 June 2026",
   "signal_date": "2026-06-18",
   "signal_date_pretty": "Thursday · 18 June 2026",
   "weekly_signal_date": "2026-06-12",
   "weekly_signal_date_pretty": "週始 12 June 2026",
-  "run_time": "10:52",
+  "run_time": "11:03",
   "freshness": {
     "ok": 300,
     "fail": 0,
@@ -438,6 +438,36 @@
     }
   ],
   "weekly": [
+    {
+      "code": "6669.TW",
+      "raw_code": "6669",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "緯穎",
+      "date": "2026-06-12",
+      "close": 1616.67,
+      "pattern": "大陰線",
+      "direction": "賣出",
+      "rsi": 21.45,
+      "ma_dist": {
+        "ma10": -41.92,
+        "ma20": -60.51,
+        "ma50": -63.34,
+        "ma200_d": -59.39,
+        "ma200_w": null
+      },
+      "chart": "charts/6669_TW_daily_20260618.html",
+      "chart_daily": "charts/6669_TW_daily_20260618.html",
+      "chart_weekly": "charts/6669_TW_weekly_20260612.html",
+      "charts": {
+        "daily": "charts/6669_TW_daily_20260618.html",
+        "weekly": "charts/6669_TW_weekly_20260612.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-06-18",
+        "weekly": "2026-06-12"
+      }
+    },
     {
       "code": "2317.TW",
       "raw_code": "2317",
