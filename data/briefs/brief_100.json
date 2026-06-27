@@ -1,17 +1,17 @@
 {
   "universe_size": 100,
-  "generated_date": "2026-06-26",
-  "generated_date_pretty": "Friday · 26 June 2026",
-  "today": "2026-06-26",
-  "today_pretty": "Friday · 26 June 2026",
+  "generated_date": "2026-06-27",
+  "generated_date_pretty": "Saturday · 27 June 2026",
+  "today": "2026-06-27",
+  "today_pretty": "Saturday · 27 June 2026",
   "signal_date": "2026-06-26",
   "signal_date_pretty": "Friday · 26 June 2026",
   "weekly_signal_date": "2026-06-26",
   "weekly_signal_date_pretty": "週始 26 June 2026",
-  "run_time": "09:58",
+  "run_time": "09:10",
   "freshness": {
-    "ok": 300,
-    "fail": 0,
+    "ok": 299,
+    "fail": 1,
     "total": 300,
     "cache_only": 0
   },
@@ -347,36 +347,6 @@
       }
     },
     {
-      "code": "6515.TW",
-      "raw_code": "6515",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "穎崴",
-      "date": "2026-06-26",
-      "close": 8190.0,
-      "pattern": "向下窗口",
-      "direction": "賣出",
-      "rsi": 39.64,
-      "ma_dist": {
-        "ma10": -12.93,
-        "ma20": -8.31,
-        "ma50": -14.04,
-        "ma200_d": 60.94,
-        "ma200_w": null
-      },
-      "chart": "charts/6515_TW_daily_20260626.html",
-      "chart_daily": "charts/6515_TW_daily_20260626.html",
-      "chart_weekly": "charts/6515_TW_weekly_20260626.html",
-      "charts": {
-        "daily": "charts/6515_TW_daily_20260626.html",
-        "weekly": "charts/6515_TW_weekly_20260626.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-06-26",
-        "weekly": "2026-06-26"
-      }
-    },
-    {
       "code": "3324.TWO",
       "raw_code": "3324",
       "market": "TPEx",
@@ -430,6 +400,36 @@
       "charts": {
         "daily": "charts/2317_TW_daily_20260626.html",
         "weekly": "charts/2317_TW_weekly_20260626.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-06-26",
+        "weekly": "2026-06-26"
+      }
+    },
+    {
+      "code": "4938.TW",
+      "raw_code": "4938",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "和碩",
+      "date": "2026-06-26",
+      "close": 81.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 41.57,
+      "ma_dist": {
+        "ma10": -3.44,
+        "ma20": -9.3,
+        "ma50": -4.31,
+        "ma200_d": 7.62,
+        "ma200_w": null
+      },
+      "chart": "charts/4938_TW_daily_20260626.html",
+      "chart_daily": "charts/4938_TW_daily_20260626.html",
+      "chart_weekly": "charts/4938_TW_weekly_20260626.html",
+      "charts": {
+        "daily": "charts/4938_TW_daily_20260626.html",
+        "weekly": "charts/4938_TW_weekly_20260626.html"
       },
       "chart_focus_dates": {
         "daily": "2026-06-26",
@@ -1138,7 +1138,7 @@
       "close": 2035.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 37.83,
+      "rsi": 37.84,
       "ma_dist": {
         "ma10": -9.41,
         "ma20": -14.85,
