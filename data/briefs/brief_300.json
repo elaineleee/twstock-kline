@@ -1,14 +1,14 @@
 {
   "universe_size": 300,
-  "generated_date": "2026-09-18",
-  "generated_date_pretty": "Friday · 18 September 2026",
-  "today": "2026-09-18",
-  "today_pretty": "Friday · 18 September 2026",
+  "generated_date": "2026-09-19",
+  "generated_date_pretty": "Saturday · 19 September 2026",
+  "today": "2026-09-19",
+  "today_pretty": "Saturday · 19 September 2026",
   "signal_date": "2026-09-18",
   "signal_date_pretty": "Friday · 18 September 2026",
   "weekly_signal_date": "2026-09-18",
   "weekly_signal_date_pretty": "週始 18 September 2026",
-  "run_time": "11:34",
+  "run_time": "11:16",
   "freshness": {
     "ok": 300,
     "fail": 0,
@@ -83,15 +83,15 @@
       "kind": "daily",
       "name": "國泰費城半導體",
       "date": "2026-09-18",
-      "close": 82.1,
+      "close": 80.45,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 48.24,
+      "rsi": 43.0,
       "ma_dist": {
-        "ma10": 0.5,
-        "ma20": 0.43,
-        "ma50": -2.67,
-        "ma200_d": 13.35,
+        "ma10": -1.32,
+        "ma20": -1.49,
+        "ma50": -4.59,
+        "ma200_d": 11.09,
         "ma200_w": null
       },
       "chart": "charts/00830_TW_daily_20260918.html",
@@ -167,29 +167,29 @@
       }
     },
     {
-      "code": "00881.TW",
-      "raw_code": "00881",
+      "code": "00891.TW",
+      "raw_code": "00891",
       "market": "TWSE",
       "kind": "daily",
-      "name": "國泰台灣科技龍頭",
+      "name": "中信關鍵半導體",
       "date": "2026-09-18",
-      "close": 51.0,
+      "close": 35.41,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 52.96,
+      "rsi": 53.83,
       "ma_dist": {
-        "ma10": 1.33,
-        "ma20": 2.16,
-        "ma50": 0.29,
-        "ma200_d": 16.79,
+        "ma10": 0.15,
+        "ma20": 1.68,
+        "ma50": 2.35,
+        "ma200_d": 22.09,
         "ma200_w": null
       },
-      "chart": "charts/00881_TW_daily_20260918.html",
-      "chart_daily": "charts/00881_TW_daily_20260918.html",
-      "chart_weekly": "charts/00881_TW_weekly_20260918.html",
+      "chart": "charts/00891_TW_daily_20260918.html",
+      "chart_daily": "charts/00891_TW_daily_20260918.html",
+      "chart_weekly": "charts/00891_TW_weekly_20260918.html",
       "charts": {
-        "daily": "charts/00881_TW_daily_20260918.html",
-        "weekly": "charts/00881_TW_weekly_20260918.html"
+        "daily": "charts/00891_TW_daily_20260918.html",
+        "weekly": "charts/00891_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -197,29 +197,29 @@
       }
     },
     {
-      "code": "00935.TW",
-      "raw_code": "00935",
+      "code": "0052.TW",
+      "raw_code": "0052",
       "market": "TWSE",
       "kind": "daily",
-      "name": "野村臺灣新科技50",
+      "name": "富邦科技",
       "date": "2026-09-18",
-      "close": 58.55,
+      "close": 62.7,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 52.99,
+      "rsi": 54.43,
       "ma_dist": {
-        "ma10": -0.37,
-        "ma20": 0.98,
-        "ma50": 3.65,
-        "ma200_d": 26.1,
+        "ma10": -0.18,
+        "ma20": 0.7,
+        "ma50": 2.91,
+        "ma200_d": 21.67,
         "ma200_w": null
       },
-      "chart": "charts/00935_TW_daily_20260918.html",
-      "chart_daily": "charts/00935_TW_daily_20260918.html",
-      "chart_weekly": "charts/00935_TW_weekly_20260918.html",
+      "chart": "charts/0052_TW_daily_20260918.html",
+      "chart_daily": "charts/0052_TW_daily_20260918.html",
+      "chart_weekly": "charts/0052_TW_weekly_20260918.html",
       "charts": {
-        "daily": "charts/00935_TW_daily_20260918.html",
-        "weekly": "charts/00935_TW_weekly_20260918.html"
+        "daily": "charts/0052_TW_daily_20260918.html",
+        "weekly": "charts/0052_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -227,29 +227,119 @@
       }
     },
     {
-      "code": "00961.TW",
-      "raw_code": "00961",
+      "code": "0052.TW",
+      "raw_code": "0052",
       "market": "TWSE",
       "kind": "daily",
-      "name": "FT臺灣永續高息",
+      "name": "富邦科技",
       "date": "2026-09-18",
-      "close": 13.33,
-      "pattern": "向上窗口",
+      "close": 62.7,
+      "pattern": "倒錘子線",
       "direction": "買入",
-      "rsi": 53.54,
+      "rsi": 54.43,
       "ma_dist": {
-        "ma10": -0.6,
-        "ma20": 0.12,
-        "ma50": 2.21,
-        "ma200_d": 18.52,
+        "ma10": -0.18,
+        "ma20": 0.7,
+        "ma50": 2.91,
+        "ma200_d": 21.67,
         "ma200_w": null
       },
-      "chart": "charts/00961_TW_daily_20260918.html",
-      "chart_daily": "charts/00961_TW_daily_20260918.html",
-      "chart_weekly": "charts/00961_TW_weekly_20260918.html",
+      "chart": "charts/0052_TW_daily_20260918.html",
+      "chart_daily": "charts/0052_TW_daily_20260918.html",
+      "chart_weekly": "charts/0052_TW_weekly_20260918.html",
       "charts": {
-        "daily": "charts/00961_TW_daily_20260918.html",
-        "weekly": "charts/00961_TW_weekly_20260918.html"
+        "daily": "charts/0052_TW_daily_20260918.html",
+        "weekly": "charts/0052_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "0050.TW",
+      "raw_code": "0050",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "元大台灣50",
+      "date": "2026-09-18",
+      "close": 108.05,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 55.48,
+      "ma_dist": {
+        "ma10": -0.14,
+        "ma20": 0.91,
+        "ma50": 3.33,
+        "ma200_d": 22.85,
+        "ma200_w": null
+      },
+      "chart": "charts/0050_TW_daily_20260918.html",
+      "chart_daily": "charts/0050_TW_daily_20260918.html",
+      "chart_weekly": "charts/0050_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/0050_TW_daily_20260918.html",
+        "weekly": "charts/0050_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "0050.TW",
+      "raw_code": "0050",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "元大台灣50",
+      "date": "2026-09-18",
+      "close": 108.05,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 55.48,
+      "ma_dist": {
+        "ma10": -0.14,
+        "ma20": 0.91,
+        "ma50": 3.33,
+        "ma200_d": 22.85,
+        "ma200_w": null
+      },
+      "chart": "charts/0050_TW_daily_20260918.html",
+      "chart_daily": "charts/0050_TW_daily_20260918.html",
+      "chart_weekly": "charts/0050_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/0050_TW_daily_20260918.html",
+        "weekly": "charts/0050_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "00927.TW",
+      "raw_code": "00927",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "群益半導體收益",
+      "date": "2026-09-18",
+      "close": 37.6,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 55.54,
+      "ma_dist": {
+        "ma10": 0.69,
+        "ma20": 2.17,
+        "ma50": 3.0,
+        "ma200_d": 22.51,
+        "ma200_w": null
+      },
+      "chart": "charts/00927_TW_daily_20260918.html",
+      "chart_daily": "charts/00927_TW_daily_20260918.html",
+      "chart_weekly": "charts/00927_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00927_TW_daily_20260918.html",
+        "weekly": "charts/00927_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -407,96 +497,6 @@
       }
     },
     {
-      "code": "0052.TW",
-      "raw_code": "0052",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "富邦科技",
-      "date": "2026-09-18",
-      "close": 63.8,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 59.44,
-      "ma_dist": {
-        "ma10": 1.4,
-        "ma20": 2.38,
-        "ma50": 4.68,
-        "ma200_d": 23.79,
-        "ma200_w": null
-      },
-      "chart": "charts/0052_TW_daily_20260918.html",
-      "chart_daily": "charts/0052_TW_daily_20260918.html",
-      "chart_weekly": "charts/0052_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/0052_TW_daily_20260918.html",
-        "weekly": "charts/0052_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-18",
-        "weekly": "2026-09-18"
-      }
-    },
-    {
-      "code": "00891.TW",
-      "raw_code": "00891",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "中信關鍵半導體",
-      "date": "2026-09-18",
-      "close": 36.37,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 59.69,
-      "ma_dist": {
-        "ma10": 2.58,
-        "ma20": 4.29,
-        "ma50": 5.07,
-        "ma200_d": 25.38,
-        "ma200_w": null
-      },
-      "chart": "charts/00891_TW_daily_20260918.html",
-      "chart_daily": "charts/00891_TW_daily_20260918.html",
-      "chart_weekly": "charts/00891_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/00891_TW_daily_20260918.html",
-        "weekly": "charts/00891_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-18",
-        "weekly": "2026-09-18"
-      }
-    },
-    {
-      "code": "0050.TW",
-      "raw_code": "0050",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "元大台灣50",
-      "date": "2026-09-18",
-      "close": 109.85,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 60.33,
-      "ma_dist": {
-        "ma10": 1.35,
-        "ma20": 2.51,
-        "ma50": 5.02,
-        "ma200_d": 24.89,
-        "ma200_w": null
-      },
-      "chart": "charts/0050_TW_daily_20260918.html",
-      "chart_daily": "charts/0050_TW_daily_20260918.html",
-      "chart_weekly": "charts/0050_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/0050_TW_daily_20260918.html",
-        "weekly": "charts/0050_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-18",
-        "weekly": "2026-09-18"
-      }
-    },
-    {
       "code": "3035.TW",
       "raw_code": "3035",
       "market": "TWSE",
@@ -520,36 +520,6 @@
       "charts": {
         "daily": "charts/3035_TW_daily_20260918.html",
         "weekly": "charts/3035_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-18",
-        "weekly": "2026-09-18"
-      }
-    },
-    {
-      "code": "00927.TW",
-      "raw_code": "00927",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "群益半導體收益",
-      "date": "2026-09-18",
-      "close": 38.73,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 61.6,
-      "ma_dist": {
-        "ma10": 3.41,
-        "ma20": 5.08,
-        "ma50": 6.03,
-        "ma200_d": 26.16,
-        "ma200_w": null
-      },
-      "chart": "charts/00927_TW_daily_20260918.html",
-      "chart_daily": "charts/00927_TW_daily_20260918.html",
-      "chart_weekly": "charts/00927_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/00927_TW_daily_20260918.html",
-        "weekly": "charts/00927_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -587,6 +557,36 @@
       }
     },
     {
+      "code": "00878.TW",
+      "raw_code": "00878",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "國泰永續高股息",
+      "date": "2026-09-18",
+      "close": 34.73,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 67.52,
+      "ma_dist": {
+        "ma10": 1.41,
+        "ma20": 3.27,
+        "ma50": 5.13,
+        "ma200_d": 27.83,
+        "ma200_w": null
+      },
+      "chart": "charts/00878_TW_daily_20260918.html",
+      "chart_daily": "charts/00878_TW_daily_20260918.html",
+      "chart_weekly": "charts/00878_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00878_TW_daily_20260918.html",
+        "weekly": "charts/00878_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
       "code": "2303.TW",
       "raw_code": "2303",
       "market": "TWSE",
@@ -617,29 +617,29 @@
       }
     },
     {
-      "code": "00878.TW",
-      "raw_code": "00878",
+      "code": "0056.TW",
+      "raw_code": "0056",
       "market": "TWSE",
       "kind": "daily",
-      "name": "國泰永續高股息",
+      "name": "元大高股息",
       "date": "2026-09-18",
-      "close": 34.83,
+      "close": 56.3,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 68.45,
+      "rsi": 68.01,
       "ma_dist": {
-        "ma10": 1.67,
-        "ma20": 3.55,
-        "ma50": 5.42,
-        "ma200_d": 28.19,
+        "ma10": 1.26,
+        "ma20": 3.02,
+        "ma50": 7.2,
+        "ma200_d": 26.69,
         "ma200_w": null
       },
-      "chart": "charts/00878_TW_daily_20260918.html",
-      "chart_daily": "charts/00878_TW_daily_20260918.html",
-      "chart_weekly": "charts/00878_TW_weekly_20260918.html",
+      "chart": "charts/0056_TW_daily_20260918.html",
+      "chart_daily": "charts/0056_TW_daily_20260918.html",
+      "chart_weekly": "charts/0056_TW_weekly_20260918.html",
       "charts": {
-        "daily": "charts/00878_TW_daily_20260918.html",
-        "weekly": "charts/00878_TW_weekly_20260918.html"
+        "daily": "charts/0056_TW_daily_20260918.html",
+        "weekly": "charts/0056_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -737,36 +737,6 @@
       }
     },
     {
-      "code": "0056.TW",
-      "raw_code": "0056",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "元大高股息",
-      "date": "2026-09-18",
-      "close": 56.85,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 70.65,
-      "ma_dist": {
-        "ma10": 2.15,
-        "ma20": 3.97,
-        "ma50": 8.22,
-        "ma200_d": 27.92,
-        "ma200_w": null
-      },
-      "chart": "charts/0056_TW_daily_20260918.html",
-      "chart_daily": "charts/0056_TW_daily_20260918.html",
-      "chart_weekly": "charts/0056_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/0056_TW_daily_20260918.html",
-        "weekly": "charts/0056_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-18",
-        "weekly": "2026-09-18"
-      }
-    },
-    {
       "code": "3094.TW",
       "raw_code": "3094",
       "market": "TWSE",
@@ -790,6 +760,36 @@
       "charts": {
         "daily": "charts/3094_TW_daily_20260918.html",
         "weekly": "charts/3094_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "00918.TW",
+      "raw_code": "00918",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "大華優利高填息30",
+      "date": "2026-09-18",
+      "close": 36.25,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 75.29,
+      "ma_dist": {
+        "ma10": 1.78,
+        "ma20": 3.39,
+        "ma50": 7.73,
+        "ma200_d": 33.78,
+        "ma200_w": null
+      },
+      "chart": "charts/00918_TW_daily_20260918.html",
+      "chart_daily": "charts/00918_TW_daily_20260918.html",
+      "chart_weekly": "charts/00918_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00918_TW_daily_20260918.html",
+        "weekly": "charts/00918_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -863,15 +863,15 @@
       "kind": "daily",
       "name": "復華富時不動產",
       "date": "2026-09-18",
-      "close": 7.97,
+      "close": 8.02,
       "pattern": "向下窗口",
       "direction": "賣出",
-      "rsi": 14.29,
+      "rsi": 15.1,
       "ma_dist": {
-        "ma10": -5.5,
-        "ma20": -7.28,
-        "ma50": -9.06,
-        "ma200_d": -11.2,
+        "ma10": -4.97,
+        "ma20": -6.72,
+        "ma50": -8.5,
+        "ma200_d": -10.64,
         "ma200_w": null
       },
       "chart": "charts/00712_TW_daily_20260918.html",
@@ -910,36 +910,6 @@
       "charts": {
         "daily": "charts/1590_TW_daily_20260918.html",
         "weekly": "charts/1590_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-18",
-        "weekly": "2026-09-18"
-      }
-    },
-    {
-      "code": "00918.TW",
-      "raw_code": "00918",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "大華優利高填息30",
-      "date": "2026-09-18",
-      "close": 34.15,
-      "pattern": "向下窗口",
-      "direction": "賣出",
-      "rsi": 43.69,
-      "ma_dist": {
-        "ma10": -3.54,
-        "ma20": -2.3,
-        "ma50": 1.62,
-        "ma200_d": 26.08,
-        "ma200_w": null
-      },
-      "chart": "charts/00918_TW_daily_20260918.html",
-      "chart_daily": "charts/00918_TW_daily_20260918.html",
-      "chart_weekly": "charts/00918_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/00918_TW_daily_20260918.html",
-        "weekly": "charts/00918_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -1030,6 +1000,66 @@
       "charts": {
         "daily": "charts/2353_TW_daily_20260918.html",
         "weekly": "charts/2353_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "00891.TW",
+      "raw_code": "00891",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "中信關鍵半導體",
+      "date": "2026-09-18",
+      "close": 35.41,
+      "pattern": "流星線",
+      "direction": "賣出",
+      "rsi": 53.83,
+      "ma_dist": {
+        "ma10": 0.15,
+        "ma20": 1.68,
+        "ma50": 2.35,
+        "ma200_d": 22.09,
+        "ma200_w": null
+      },
+      "chart": "charts/00891_TW_daily_20260918.html",
+      "chart_daily": "charts/00891_TW_daily_20260918.html",
+      "chart_weekly": "charts/00891_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00891_TW_daily_20260918.html",
+        "weekly": "charts/00891_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "00927.TW",
+      "raw_code": "00927",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "群益半導體收益",
+      "date": "2026-09-18",
+      "close": 37.6,
+      "pattern": "流星線",
+      "direction": "賣出",
+      "rsi": 55.54,
+      "ma_dist": {
+        "ma10": 0.69,
+        "ma20": 2.17,
+        "ma50": 3.0,
+        "ma200_d": 22.51,
+        "ma200_w": null
+      },
+      "chart": "charts/00927_TW_daily_20260918.html",
+      "chart_daily": "charts/00927_TW_daily_20260918.html",
+      "chart_weekly": "charts/00927_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00927_TW_daily_20260918.html",
+        "weekly": "charts/00927_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -1339,6 +1369,36 @@
   ],
   "weekly": [
     {
+      "code": "00830.TW",
+      "raw_code": "00830",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "國泰費城半導體",
+      "date": "2026-09-18",
+      "close": 81.35,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 43.0,
+      "ma_dist": {
+        "ma10": -0.22,
+        "ma20": -0.39,
+        "ma50": -3.52,
+        "ma200_d": 12.33,
+        "ma200_w": null
+      },
+      "chart": "charts/00830_TW_daily_20260918.html",
+      "chart_daily": "charts/00830_TW_daily_20260918.html",
+      "chart_weekly": "charts/00830_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00830_TW_daily_20260918.html",
+        "weekly": "charts/00830_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
       "code": "4958.TW",
       "raw_code": "4958",
       "market": "TWSE",
@@ -1375,15 +1435,15 @@
       "kind": "weekly",
       "name": "復華富時不動產",
       "date": "2026-09-18",
-      "close": 7.97,
+      "close": 8.38,
       "pattern": "大陰線",
       "direction": "賣出",
-      "rsi": 14.29,
+      "rsi": 15.1,
       "ma_dist": {
-        "ma10": -5.5,
-        "ma20": -7.28,
-        "ma50": -9.06,
-        "ma200_d": -11.2,
+        "ma10": -0.7,
+        "ma20": -2.54,
+        "ma50": -4.39,
+        "ma200_d": -6.63,
         "ma200_w": null
       },
       "chart": "charts/00712_TW_daily_20260918.html",
@@ -1482,6 +1542,36 @@
       "charts": {
         "daily": "charts/2467_TW_daily_20260918.html",
         "weekly": "charts/2467_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "00929.TW",
+      "raw_code": "00929",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "復華台灣科技優息",
+      "date": "2026-09-18",
+      "close": 28.62,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 45.46,
+      "ma_dist": {
+        "ma10": -0.92,
+        "ma20": -1.02,
+        "ma50": -0.57,
+        "ma200_d": 19.65,
+        "ma200_w": null
+      },
+      "chart": "charts/00929_TW_daily_20260918.html",
+      "chart_daily": "charts/00929_TW_daily_20260918.html",
+      "chart_weekly": "charts/00929_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00929_TW_daily_20260918.html",
+        "weekly": "charts/00929_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",

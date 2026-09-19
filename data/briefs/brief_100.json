@@ -1,14 +1,14 @@
 {
   "universe_size": 100,
-  "generated_date": "2026-09-18",
-  "generated_date_pretty": "Friday · 18 September 2026",
-  "today": "2026-09-18",
-  "today_pretty": "Friday · 18 September 2026",
+  "generated_date": "2026-09-19",
+  "generated_date_pretty": "Saturday · 19 September 2026",
+  "today": "2026-09-19",
+  "today_pretty": "Saturday · 19 September 2026",
   "signal_date": "2026-09-18",
   "signal_date_pretty": "Friday · 18 September 2026",
   "weekly_signal_date": "2026-09-18",
   "weekly_signal_date_pretty": "週始 18 September 2026",
-  "run_time": "11:34",
+  "run_time": "11:16",
   "freshness": {
     "ok": 300,
     "fail": 0,
@@ -40,6 +40,66 @@
       "charts": {
         "daily": "charts/6213_TW_daily_20260918.html",
         "weekly": "charts/6213_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "0050.TW",
+      "raw_code": "0050",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "元大台灣50",
+      "date": "2026-09-18",
+      "close": 108.05,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 55.48,
+      "ma_dist": {
+        "ma10": -0.14,
+        "ma20": 0.91,
+        "ma50": 3.33,
+        "ma200_d": 22.85,
+        "ma200_w": null
+      },
+      "chart": "charts/0050_TW_daily_20260918.html",
+      "chart_daily": "charts/0050_TW_daily_20260918.html",
+      "chart_weekly": "charts/0050_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/0050_TW_daily_20260918.html",
+        "weekly": "charts/0050_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-18",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "0050.TW",
+      "raw_code": "0050",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "元大台灣50",
+      "date": "2026-09-18",
+      "close": 108.05,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 55.48,
+      "ma_dist": {
+        "ma10": -0.14,
+        "ma20": 0.91,
+        "ma50": 3.33,
+        "ma200_d": 22.85,
+        "ma200_w": null
+      },
+      "chart": "charts/0050_TW_daily_20260918.html",
+      "chart_daily": "charts/0050_TW_daily_20260918.html",
+      "chart_weekly": "charts/0050_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/0050_TW_daily_20260918.html",
+        "weekly": "charts/0050_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-18",
@@ -167,36 +227,6 @@
       }
     },
     {
-      "code": "0050.TW",
-      "raw_code": "0050",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "元大台灣50",
-      "date": "2026-09-18",
-      "close": 109.85,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 60.33,
-      "ma_dist": {
-        "ma10": 1.35,
-        "ma20": 2.51,
-        "ma50": 5.02,
-        "ma200_d": 24.89,
-        "ma200_w": null
-      },
-      "chart": "charts/0050_TW_daily_20260918.html",
-      "chart_daily": "charts/0050_TW_daily_20260918.html",
-      "chart_weekly": "charts/0050_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/0050_TW_daily_20260918.html",
-        "weekly": "charts/0050_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-18",
-        "weekly": "2026-09-18"
-      }
-    },
-    {
       "code": "5274.TWO",
       "raw_code": "5274",
       "market": "TPEx",
@@ -263,15 +293,15 @@
       "kind": "daily",
       "name": "大華優利高填息30",
       "date": "2026-09-18",
-      "close": 34.15,
-      "pattern": "向下窗口",
-      "direction": "賣出",
-      "rsi": 43.69,
+      "close": 36.25,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 75.29,
       "ma_dist": {
-        "ma10": -3.54,
-        "ma20": -2.3,
-        "ma50": 1.62,
-        "ma200_d": 26.08,
+        "ma10": 1.78,
+        "ma20": 3.39,
+        "ma50": 7.73,
+        "ma200_d": 33.78,
         "ma200_w": null
       },
       "chart": "charts/00918_TW_daily_20260918.html",
