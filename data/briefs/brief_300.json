@@ -1,51 +1,21 @@
 {
   "universe_size": 300,
-  "generated_date": "2026-09-25",
-  "generated_date_pretty": "Friday · 25 September 2026",
-  "today": "2026-09-25",
-  "today_pretty": "Friday · 25 September 2026",
+  "generated_date": "2026-09-26",
+  "generated_date_pretty": "Saturday · 26 September 2026",
+  "today": "2026-09-26",
+  "today_pretty": "Saturday · 26 September 2026",
   "signal_date": "2026-09-24",
   "signal_date_pretty": "Thursday · 24 September 2026",
   "weekly_signal_date": "2026-09-18",
   "weekly_signal_date_pretty": "週始 18 September 2026",
-  "run_time": "12:03",
+  "run_time": "11:37",
   "freshness": {
-    "ok": 298,
-    "fail": 2,
+    "ok": 299,
+    "fail": 1,
     "total": 300,
     "cache_only": 0
   },
   "daily": [
-    {
-      "code": "00712.TW",
-      "raw_code": "00712",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "復華富時不動產",
-      "date": "2026-09-24",
-      "close": 7.98,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 23.26,
-      "ma_dist": {
-        "ma10": -2.06,
-        "ma20": -5.14,
-        "ma50": -8.18,
-        "ma200_d": -10.86,
-        "ma200_w": null
-      },
-      "chart": "charts/00712_TW_daily_20260924.html",
-      "chart_daily": "charts/00712_TW_daily_20260924.html",
-      "chart_weekly": "charts/00712_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/00712_TW_daily_20260924.html",
-        "weekly": "charts/00712_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-24",
-        "weekly": "2026-09-18"
-      }
-    },
     {
       "code": "5871.TW",
       "raw_code": "5871",
@@ -130,36 +100,6 @@
       "charts": {
         "daily": "charts/6706_TW_daily_20260924.html",
         "weekly": "charts/6706_TW_weekly_20260918.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-09-24",
-        "weekly": "2026-09-18"
-      }
-    },
-    {
-      "code": "00830.TW",
-      "raw_code": "00830",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "國泰費城半導體",
-      "date": "2026-09-24",
-      "close": 88.6,
-      "pattern": "向上窗口",
-      "direction": "買入",
-      "rsi": 64.47,
-      "ma_dist": {
-        "ma10": 7.22,
-        "ma20": 7.72,
-        "ma50": 5.55,
-        "ma200_d": 21.3,
-        "ma200_w": null
-      },
-      "chart": "charts/00830_TW_daily_20260924.html",
-      "chart_daily": "charts/00830_TW_daily_20260924.html",
-      "chart_weekly": "charts/00830_TW_weekly_20260918.html",
-      "charts": {
-        "daily": "charts/00830_TW_daily_20260924.html",
-        "weekly": "charts/00830_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-24",
@@ -340,6 +280,36 @@
       "charts": {
         "daily": "charts/3016_TW_daily_20260924.html",
         "weekly": "charts/3016_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-24",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "00712.TW",
+      "raw_code": "00712",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "復華富時不動產",
+      "date": "2026-09-24",
+      "close": 7.82,
+      "pattern": "向下窗口",
+      "direction": "賣出",
+      "rsi": 19.46,
+      "ma_dist": {
+        "ma10": -3.18,
+        "ma20": -6.53,
+        "ma50": -9.77,
+        "ma200_d": -12.57,
+        "ma200_w": null
+      },
+      "chart": "charts/00712_TW_daily_20260924.html",
+      "chart_daily": "charts/00712_TW_daily_20260924.html",
+      "chart_weekly": "charts/00712_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00712_TW_daily_20260924.html",
+        "weekly": "charts/00712_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-24",
@@ -647,6 +617,36 @@
       }
     },
     {
+      "code": "00919.TW",
+      "raw_code": "00919",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "群益台灣精選高息",
+      "date": "2026-09-24",
+      "close": 31.83,
+      "pattern": "向下窗口",
+      "direction": "賣出",
+      "rsi": 50.15,
+      "ma_dist": {
+        "ma10": -1.3,
+        "ma20": -1.58,
+        "ma50": 3.17,
+        "ma200_d": 20.22,
+        "ma200_w": null
+      },
+      "chart": "charts/00919_TW_daily_20260924.html",
+      "chart_daily": "charts/00919_TW_daily_20260924.html",
+      "chart_weekly": "charts/00919_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00919_TW_daily_20260924.html",
+        "weekly": "charts/00919_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-24",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
       "code": "2493.TW",
       "raw_code": "2493",
       "market": "TWSE",
@@ -887,6 +887,36 @@
       }
     },
     {
+      "code": "00830.TW",
+      "raw_code": "00830",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "國泰費城半導體",
+      "date": "2026-09-24",
+      "close": 88.0,
+      "pattern": "向下窗口",
+      "direction": "賣出",
+      "rsi": 62.4,
+      "ma_dist": {
+        "ma10": 5.86,
+        "ma20": 6.71,
+        "ma50": 4.86,
+        "ma200_d": 20.22,
+        "ma200_w": null
+      },
+      "chart": "charts/00830_TW_daily_20260924.html",
+      "chart_daily": "charts/00830_TW_daily_20260924.html",
+      "chart_weekly": "charts/00830_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00830_TW_daily_20260924.html",
+        "weekly": "charts/00830_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-24",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
       "code": "2481.TW",
       "raw_code": "2481",
       "market": "TWSE",
@@ -947,29 +977,59 @@
       }
     },
     {
-      "code": "0052.TW",
-      "raw_code": "0052",
+      "code": "00878.TW",
+      "raw_code": "00878",
       "market": "TWSE",
       "kind": "daily",
-      "name": "富邦科技",
+      "name": "國泰永續高股息",
       "date": "2026-09-24",
-      "close": 65.45,
-      "pattern": "流星線",
+      "close": 34.88,
+      "pattern": "向下窗口",
       "direction": "賣出",
-      "rsi": 66.6,
+      "rsi": 64.48,
       "ma_dist": {
-        "ma10": 3.42,
-        "ma20": 3.93,
-        "ma50": 7.04,
-        "ma200_d": 25.57,
+        "ma10": 0.59,
+        "ma20": 1.87,
+        "ma50": 4.95,
+        "ma200_d": 26.71,
         "ma200_w": null
       },
-      "chart": "charts/0052_TW_daily_20260924.html",
-      "chart_daily": "charts/0052_TW_daily_20260924.html",
-      "chart_weekly": "charts/0052_TW_weekly_20260918.html",
+      "chart": "charts/00878_TW_daily_20260924.html",
+      "chart_daily": "charts/00878_TW_daily_20260924.html",
+      "chart_weekly": "charts/00878_TW_weekly_20260918.html",
       "charts": {
-        "daily": "charts/0052_TW_daily_20260924.html",
-        "weekly": "charts/0052_TW_weekly_20260918.html"
+        "daily": "charts/00878_TW_daily_20260924.html",
+        "weekly": "charts/00878_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-24",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
+      "code": "00927.TW",
+      "raw_code": "00927",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "群益半導體收益",
+      "date": "2026-09-24",
+      "close": 39.77,
+      "pattern": "向下窗口",
+      "direction": "賣出",
+      "rsi": 66.24,
+      "ma_dist": {
+        "ma10": 3.78,
+        "ma20": 5.5,
+        "ma50": 9.24,
+        "ma200_d": 27.58,
+        "ma200_w": null
+      },
+      "chart": "charts/00927_TW_daily_20260924.html",
+      "chart_daily": "charts/00927_TW_daily_20260924.html",
+      "chart_weekly": "charts/00927_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00927_TW_daily_20260924.html",
+        "weekly": "charts/00927_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-24",
@@ -1048,12 +1108,12 @@
       "close": 7.97,
       "pattern": "大陰線",
       "direction": "賣出",
-      "rsi": 23.26,
+      "rsi": 19.46,
       "ma_dist": {
-        "ma10": -2.18,
-        "ma20": -5.26,
-        "ma50": -8.3,
-        "ma200_d": -10.97,
+        "ma10": -1.32,
+        "ma20": -4.73,
+        "ma50": -8.04,
+        "ma200_d": -10.9,
         "ma200_w": null
       },
       "chart": "charts/00712_TW_daily_20260924.html",

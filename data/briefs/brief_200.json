@@ -1,17 +1,17 @@
 {
   "universe_size": 200,
-  "generated_date": "2026-09-25",
-  "generated_date_pretty": "Friday · 25 September 2026",
-  "today": "2026-09-25",
-  "today_pretty": "Friday · 25 September 2026",
+  "generated_date": "2026-09-26",
+  "generated_date_pretty": "Saturday · 26 September 2026",
+  "today": "2026-09-26",
+  "today_pretty": "Saturday · 26 September 2026",
   "signal_date": "2026-09-24",
   "signal_date_pretty": "Thursday · 24 September 2026",
   "weekly_signal_date": "2026-09-18",
   "weekly_signal_date_pretty": "週始 18 September 2026",
-  "run_time": "12:03",
+  "run_time": "11:37",
   "freshness": {
-    "ok": 298,
-    "fail": 2,
+    "ok": 299,
+    "fail": 1,
     "total": 300,
     "cache_only": 0
   },
@@ -527,6 +527,36 @@
       }
     },
     {
+      "code": "00919.TW",
+      "raw_code": "00919",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "群益台灣精選高息",
+      "date": "2026-09-24",
+      "close": 31.83,
+      "pattern": "向下窗口",
+      "direction": "賣出",
+      "rsi": 50.15,
+      "ma_dist": {
+        "ma10": -1.3,
+        "ma20": -1.58,
+        "ma50": 3.17,
+        "ma200_d": 20.22,
+        "ma200_w": null
+      },
+      "chart": "charts/00919_TW_daily_20260924.html",
+      "chart_daily": "charts/00919_TW_daily_20260924.html",
+      "chart_weekly": "charts/00919_TW_weekly_20260918.html",
+      "charts": {
+        "daily": "charts/00919_TW_daily_20260924.html",
+        "weekly": "charts/00919_TW_weekly_20260918.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-09-24",
+        "weekly": "2026-09-18"
+      }
+    },
+    {
       "code": "2408.TW",
       "raw_code": "2408",
       "market": "TWSE",
@@ -737,29 +767,29 @@
       }
     },
     {
-      "code": "0052.TW",
-      "raw_code": "0052",
+      "code": "00878.TW",
+      "raw_code": "00878",
       "market": "TWSE",
       "kind": "daily",
-      "name": "富邦科技",
+      "name": "國泰永續高股息",
       "date": "2026-09-24",
-      "close": 65.45,
-      "pattern": "流星線",
+      "close": 34.88,
+      "pattern": "向下窗口",
       "direction": "賣出",
-      "rsi": 66.6,
+      "rsi": 64.48,
       "ma_dist": {
-        "ma10": 3.42,
-        "ma20": 3.93,
-        "ma50": 7.04,
-        "ma200_d": 25.57,
+        "ma10": 0.59,
+        "ma20": 1.87,
+        "ma50": 4.95,
+        "ma200_d": 26.71,
         "ma200_w": null
       },
-      "chart": "charts/0052_TW_daily_20260924.html",
-      "chart_daily": "charts/0052_TW_daily_20260924.html",
-      "chart_weekly": "charts/0052_TW_weekly_20260918.html",
+      "chart": "charts/00878_TW_daily_20260924.html",
+      "chart_daily": "charts/00878_TW_daily_20260924.html",
+      "chart_weekly": "charts/00878_TW_weekly_20260918.html",
       "charts": {
-        "daily": "charts/0052_TW_daily_20260924.html",
-        "weekly": "charts/0052_TW_weekly_20260918.html"
+        "daily": "charts/00878_TW_daily_20260924.html",
+        "weekly": "charts/00878_TW_weekly_20260918.html"
       },
       "chart_focus_dates": {
         "daily": "2026-09-24",
