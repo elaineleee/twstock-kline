@@ -1,14 +1,14 @@
 {
   "universe_size": 300,
-  "generated_date": "2026-11-04",
-  "generated_date_pretty": "Wednesday · 04 November 2026",
-  "today": "2026-11-04",
-  "today_pretty": "Wednesday · 04 November 2026",
-  "signal_date": "2026-11-04",
-  "signal_date_pretty": "Wednesday · 04 November 2026",
+  "generated_date": "2026-11-05",
+  "generated_date_pretty": "Thursday · 05 November 2026",
+  "today": "2026-11-05",
+  "today_pretty": "Thursday · 05 November 2026",
+  "signal_date": "2026-11-05",
+  "signal_date_pretty": "Thursday · 05 November 2026",
   "weekly_signal_date": "2026-10-30",
   "weekly_signal_date_pretty": "週始 30 October 2026",
-  "run_time": "14:45",
+  "run_time": "14:51",
   "freshness": {
     "ok": 300,
     "fail": 0,
@@ -17,242 +17,692 @@
   },
   "daily": [
     {
-      "code": "7711.TW",
-      "raw_code": "7711",
+      "code": "1519.TW",
+      "raw_code": "1519",
       "market": "TWSE",
       "kind": "daily",
-      "name": "永擎",
-      "date": "2026-11-04",
-      "close": 599.0,
+      "name": "華城",
+      "date": "2026-11-05",
+      "close": 493.5,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 19.94,
+      "ma_dist": {
+        "ma10": -11.77,
+        "ma20": -19.56,
+        "ma50": -26.95,
+        "ma200_d": -33.92,
+        "ma200_w": null
+      },
+      "chart": "charts/1519_TW_daily_20261105.html",
+      "chart_daily": "charts/1519_TW_daily_20261105.html",
+      "chart_weekly": "charts/1519_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/1519_TW_daily_20261105.html",
+        "weekly": "charts/1519_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2330.TW",
+      "raw_code": "2330",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "台積電",
+      "date": "2026-11-05",
+      "close": 2240.0,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 25.31,
+      "ma_dist": {
+        "ma10": -4.7,
+        "ma20": -7.18,
+        "ma50": -7.93,
+        "ma200_d": 1.7,
+        "ma200_w": null
+      },
+      "chart": "charts/2330_TW_daily_20261105.html",
+      "chart_daily": "charts/2330_TW_daily_20261105.html",
+      "chart_weekly": "charts/2330_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2330_TW_daily_20261105.html",
+        "weekly": "charts/2330_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2324.TW",
+      "raw_code": "2324",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "仁寶",
+      "date": "2026-11-05",
+      "close": 32.45,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 29.62,
+      "ma_dist": {
+        "ma10": -8.85,
+        "ma20": -9.93,
+        "ma50": -13.28,
+        "ma200_d": -5.55,
+        "ma200_w": null
+      },
+      "chart": "charts/2324_TW_daily_20261105.html",
+      "chart_daily": "charts/2324_TW_daily_20261105.html",
+      "chart_weekly": "charts/2324_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2324_TW_daily_20261105.html",
+        "weekly": "charts/2324_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2353.TW",
+      "raw_code": "2353",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "宏碁",
+      "date": "2026-11-05",
+      "close": 29.2,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 30.96,
+      "ma_dist": {
+        "ma10": -6.35,
+        "ma20": -7.27,
+        "ma50": -7.4,
+        "ma200_d": -2.83,
+        "ma200_w": null
+      },
+      "chart": "charts/2353_TW_daily_20261105.html",
+      "chart_daily": "charts/2353_TW_daily_20261105.html",
+      "chart_weekly": "charts/2353_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2353_TW_daily_20261105.html",
+        "weekly": "charts/2353_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "00662.TW",
+      "raw_code": "00662",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "富邦NASDAQ",
+      "date": "2026-11-05",
+      "close": 118.75,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 56.43,
+      "rsi": 37.8,
       "ma_dist": {
-        "ma10": 5.12,
-        "ma20": 2.77,
-        "ma50": 6.04,
-        "ma200_d": 58.6,
+        "ma10": -1.92,
+        "ma20": -3.59,
+        "ma50": -2.61,
+        "ma200_d": 3.92,
         "ma200_w": null
       },
-      "chart": "charts/7711_TW_daily_20261104.html",
-      "chart_daily": "charts/7711_TW_daily_20261104.html",
-      "chart_weekly": "charts/7711_TW_weekly_20261030.html",
+      "chart": "charts/00662_TW_daily_20261105.html",
+      "chart_daily": "charts/00662_TW_daily_20261105.html",
+      "chart_weekly": "charts/00662_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/7711_TW_daily_20261104.html",
-        "weekly": "charts/7711_TW_weekly_20261030.html"
+        "daily": "charts/00662_TW_daily_20261105.html",
+        "weekly": "charts/00662_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "6199.TWO",
-      "raw_code": "6199",
-      "market": "TPEx",
+      "code": "2890.TW",
+      "raw_code": "2890",
+      "market": "TWSE",
       "kind": "daily",
-      "name": "天品",
-      "date": "2026-11-04",
-      "close": 165.5,
+      "name": "永豐金",
+      "date": "2026-11-05",
+      "close": 42.9,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 38.32,
+      "ma_dist": {
+        "ma10": -5.6,
+        "ma20": -5.03,
+        "ma50": -2.34,
+        "ma200_d": 19.67,
+        "ma200_w": null
+      },
+      "chart": "charts/2890_TW_daily_20261105.html",
+      "chart_daily": "charts/2890_TW_daily_20261105.html",
+      "chart_weekly": "charts/2890_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2890_TW_daily_20261105.html",
+        "weekly": "charts/2890_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2887.TW",
+      "raw_code": "2887",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "台新新光金",
+      "date": "2026-11-05",
+      "close": 40.1,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 39.13,
+      "ma_dist": {
+        "ma10": -3.69,
+        "ma20": -4.24,
+        "ma50": -3.48,
+        "ma200_d": 30.15,
+        "ma200_w": null
+      },
+      "chart": "charts/2887_TW_daily_20261105.html",
+      "chart_daily": "charts/2887_TW_daily_20261105.html",
+      "chart_weekly": "charts/2887_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2887_TW_daily_20261105.html",
+        "weekly": "charts/2887_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6830.TW",
+      "raw_code": "6830",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "汎銓",
+      "date": "2026-11-05",
+      "close": 454.0,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 43.48,
+      "ma_dist": {
+        "ma10": -1.71,
+        "ma20": -6.32,
+        "ma50": -12.84,
+        "ma200_d": -6.93,
+        "ma200_w": null
+      },
+      "chart": "charts/6830_TW_daily_20261105.html",
+      "chart_daily": "charts/6830_TW_daily_20261105.html",
+      "chart_weekly": "charts/6830_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6830_TW_daily_20261105.html",
+        "weekly": "charts/6830_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "1101.TW",
+      "raw_code": "1101",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "台泥",
+      "date": "2026-11-05",
+      "close": 27.2,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 53.87,
+      "ma_dist": {
+        "ma10": -2.44,
+        "ma20": -0.23,
+        "ma50": 5.73,
+        "ma200_d": 9.62,
+        "ma200_w": null
+      },
+      "chart": "charts/1101_TW_daily_20261105.html",
+      "chart_daily": "charts/1101_TW_daily_20261105.html",
+      "chart_weekly": "charts/1101_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/1101_TW_daily_20261105.html",
+        "weekly": "charts/1101_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2884.TW",
+      "raw_code": "2884",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "玉山金",
+      "date": "2026-11-05",
+      "close": 47.95,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 86.17,
+      "rsi": 54.24,
       "ma_dist": {
-        "ma10": 5.58,
-        "ma20": 10.55,
-        "ma50": 34.37,
-        "ma200_d": 55.57,
+        "ma10": -1.54,
+        "ma20": -0.35,
+        "ma50": 5.46,
+        "ma200_d": 30.56,
         "ma200_w": null
       },
-      "chart": "charts/6199_TWO_daily_20261104.html",
-      "chart_daily": "charts/6199_TWO_daily_20261104.html",
-      "chart_weekly": "charts/6199_TWO_weekly_20261030.html",
+      "chart": "charts/2884_TW_daily_20261105.html",
+      "chart_daily": "charts/2884_TW_daily_20261105.html",
+      "chart_weekly": "charts/2884_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6199_TWO_daily_20261104.html",
-        "weekly": "charts/6199_TWO_weekly_20261030.html"
+        "daily": "charts/2884_TW_daily_20261105.html",
+        "weekly": "charts/2884_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2360.TW",
-      "raw_code": "2360",
+      "code": "4904.TW",
+      "raw_code": "4904",
       "market": "TWSE",
       "kind": "daily",
-      "name": "致茂",
-      "date": "2026-11-04",
-      "close": 1470.0,
-      "pattern": "向下窗口",
+      "name": "遠傳",
+      "date": "2026-11-05",
+      "close": 112.5,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 56.6,
+      "ma_dist": {
+        "ma10": -0.92,
+        "ma20": 0.83,
+        "ma50": 5.08,
+        "ma200_d": 12.98,
+        "ma200_w": null
+      },
+      "chart": "charts/4904_TW_daily_20261105.html",
+      "chart_daily": "charts/4904_TW_daily_20261105.html",
+      "chart_weekly": "charts/4904_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/4904_TW_daily_20261105.html",
+        "weekly": "charts/4904_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2892.TW",
+      "raw_code": "2892",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "第一金",
+      "date": "2026-11-05",
+      "close": 42.25,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 56.87,
+      "ma_dist": {
+        "ma10": -1.89,
+        "ma20": 1.16,
+        "ma50": 7.49,
+        "ma200_d": 29.29,
+        "ma200_w": null
+      },
+      "chart": "charts/2892_TW_daily_20261105.html",
+      "chart_daily": "charts/2892_TW_daily_20261105.html",
+      "chart_weekly": "charts/2892_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2892_TW_daily_20261105.html",
+        "weekly": "charts/2892_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2610.TW",
+      "raw_code": "2610",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "華航",
+      "date": "2026-11-05",
+      "close": 21.65,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 67.47,
+      "ma_dist": {
+        "ma10": 5.3,
+        "ma20": 5.47,
+        "ma50": 6.02,
+        "ma200_d": 6.76,
+        "ma200_w": null
+      },
+      "chart": "charts/2610_TW_daily_20261105.html",
+      "chart_daily": "charts/2610_TW_daily_20261105.html",
+      "chart_weekly": "charts/2610_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2610_TW_daily_20261105.html",
+        "weekly": "charts/2610_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2618.TW",
+      "raw_code": "2618",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "長榮航",
+      "date": "2026-11-05",
+      "close": 45.1,
+      "pattern": "向上窗口",
+      "direction": "買入",
+      "rsi": 68.12,
+      "ma_dist": {
+        "ma10": 4.66,
+        "ma20": 5.26,
+        "ma50": 6.25,
+        "ma200_d": 15.41,
+        "ma200_w": null
+      },
+      "chart": "charts/2618_TW_daily_20261105.html",
+      "chart_daily": "charts/2618_TW_daily_20261105.html",
+      "chart_weekly": "charts/2618_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2618_TW_daily_20261105.html",
+        "weekly": "charts/2618_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "00929.TW",
+      "raw_code": "00929",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "復華台灣科技優息",
+      "date": "2026-11-05",
+      "close": 25.14,
+      "pattern": "大陰線",
       "direction": "賣出",
-      "rsi": 23.83,
+      "rsi": 16.18,
       "ma_dist": {
-        "ma10": -20.07,
-        "ma20": -27.07,
-        "ma50": -29.76,
-        "ma200_d": -21.88,
+        "ma10": -9.34,
+        "ma20": -12.57,
+        "ma50": -13.23,
+        "ma200_d": -1.77,
         "ma200_w": null
       },
-      "chart": "charts/2360_TW_daily_20261104.html",
-      "chart_daily": "charts/2360_TW_daily_20261104.html",
-      "chart_weekly": "charts/2360_TW_weekly_20261030.html",
+      "chart": "charts/00929_TW_daily_20261105.html",
+      "chart_daily": "charts/00929_TW_daily_20261105.html",
+      "chart_weekly": "charts/00929_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2360_TW_daily_20261104.html",
-        "weekly": "charts/2360_TW_weekly_20261030.html"
+        "daily": "charts/00929_TW_daily_20261105.html",
+        "weekly": "charts/00929_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2059.TW",
-      "raw_code": "2059",
+      "code": "3702.TW",
+      "raw_code": "3702",
       "market": "TWSE",
       "kind": "daily",
-      "name": "川湖",
-      "date": "2026-11-04",
-      "close": 8600.0,
+      "name": "大聯大",
+      "date": "2026-11-05",
+      "close": 92.1,
+      "pattern": "大陰線",
+      "direction": "賣出",
+      "rsi": 20.79,
+      "ma_dist": {
+        "ma10": -14.58,
+        "ma20": -17.87,
+        "ma50": -16.57,
+        "ma200_d": -7.86,
+        "ma200_w": null
+      },
+      "chart": "charts/3702_TW_daily_20261105.html",
+      "chart_daily": "charts/3702_TW_daily_20261105.html",
+      "chart_weekly": "charts/3702_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/3702_TW_daily_20261105.html",
+        "weekly": "charts/3702_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "7610.TW",
+      "raw_code": "7610",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "聯友金屬-創",
+      "date": "2026-11-05",
+      "close": 1155.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 26.53,
+      "rsi": 30.04,
       "ma_dist": {
-        "ma10": -10.73,
-        "ma20": -14.93,
-        "ma50": -27.45,
-        "ma200_d": 21.53,
+        "ma10": -10.53,
+        "ma20": -18.36,
+        "ma50": -29.09,
+        "ma200_d": 4.39,
         "ma200_w": null
       },
-      "chart": "charts/2059_TW_daily_20261104.html",
-      "chart_daily": "charts/2059_TW_daily_20261104.html",
-      "chart_weekly": "charts/2059_TW_weekly_20261030.html",
+      "chart": "charts/7610_TW_daily_20261105.html",
+      "chart_daily": "charts/7610_TW_daily_20261105.html",
+      "chart_weekly": "charts/7610_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2059_TW_daily_20261104.html",
-        "weekly": "charts/2059_TW_weekly_20261030.html"
+        "daily": "charts/7610_TW_daily_20261105.html",
+        "weekly": "charts/7610_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2455.TW",
-      "raw_code": "2455",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "全新",
-      "date": "2026-11-04",
-      "close": 384.0,
-      "pattern": "向下窗口",
-      "direction": "賣出",
-      "rsi": 30.56,
-      "ma_dist": {
-        "ma10": -16.01,
-        "ma20": -21.67,
-        "ma50": -23.84,
-        "ma200_d": 9.87,
-        "ma200_w": null
-      },
-      "chart": "charts/2455_TW_daily_20261104.html",
-      "chart_daily": "charts/2455_TW_daily_20261104.html",
-      "chart_weekly": "charts/2455_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/2455_TW_daily_20261104.html",
-        "weekly": "charts/2455_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "7750.TW",
-      "raw_code": "7750",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "新代",
-      "date": "2026-11-04",
-      "close": 1490.0,
-      "pattern": "向下窗口",
-      "direction": "賣出",
-      "rsi": 31.08,
-      "ma_dist": {
-        "ma10": -19.94,
-        "ma20": -20.44,
-        "ma50": -26.33,
-        "ma200_d": -20.14,
-        "ma200_w": null
-      },
-      "chart": "charts/7750_TW_daily_20261104.html",
-      "chart_daily": "charts/7750_TW_daily_20261104.html",
-      "chart_weekly": "charts/7750_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/7750_TW_daily_20261104.html",
-        "weekly": "charts/7750_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "3105.TWO",
-      "raw_code": "3105",
+      "code": "4908.TWO",
+      "raw_code": "4908",
       "market": "TPEx",
       "kind": "daily",
-      "name": "穩懋",
-      "date": "2026-11-04",
-      "close": 501.0,
-      "pattern": "向下窗口",
+      "name": "前鼎",
+      "date": "2026-11-05",
+      "close": 158.0,
+      "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 46.4,
+      "rsi": 32.44,
       "ma_dist": {
-        "ma10": -5.58,
-        "ma20": -6.53,
-        "ma50": 1.06,
-        "ma200_d": 21.18,
+        "ma10": -14.53,
+        "ma20": -22.64,
+        "ma50": -25.3,
+        "ma200_d": -4.54,
         "ma200_w": null
       },
-      "chart": "charts/3105_TWO_daily_20261104.html",
-      "chart_daily": "charts/3105_TWO_daily_20261104.html",
-      "chart_weekly": "charts/3105_TWO_weekly_20261030.html",
+      "chart": "charts/4908_TWO_daily_20261105.html",
+      "chart_daily": "charts/4908_TWO_daily_20261105.html",
+      "chart_weekly": "charts/4908_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3105_TWO_daily_20261104.html",
-        "weekly": "charts/3105_TWO_weekly_20261030.html"
+        "daily": "charts/4908_TWO_daily_20261105.html",
+        "weekly": "charts/4908_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "9904.TW",
-      "raw_code": "9904",
-      "market": "TWSE",
+      "code": "5314.TWO",
+      "raw_code": "5314",
+      "market": "TPEx",
       "kind": "daily",
-      "name": "寶成",
-      "date": "2026-11-04",
-      "close": 25.45,
+      "name": "世紀*",
+      "date": "2026-11-05",
+      "close": 21.15,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 47.78,
+      "rsi": 35.37,
       "ma_dist": {
-        "ma10": -1.68,
-        "ma20": -1.5,
-        "ma50": 1.23,
-        "ma200_d": -4.86,
+        "ma10": -10.34,
+        "ma20": -15.75,
+        "ma50": -28.82,
+        "ma200_d": 1.69,
         "ma200_w": null
       },
-      "chart": "charts/9904_TW_daily_20261104.html",
-      "chart_daily": "charts/9904_TW_daily_20261104.html",
-      "chart_weekly": "charts/9904_TW_weekly_20261030.html",
+      "chart": "charts/5314_TWO_daily_20261105.html",
+      "chart_daily": "charts/5314_TWO_daily_20261105.html",
+      "chart_weekly": "charts/5314_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/9904_TW_daily_20261104.html",
-        "weekly": "charts/9904_TW_weekly_20261030.html"
+        "daily": "charts/5314_TWO_daily_20261105.html",
+        "weekly": "charts/5314_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6446.TW",
+      "raw_code": "6446",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "藥華藥",
+      "date": "2026-11-05",
+      "close": 1185.0,
+      "pattern": "大陰線",
+      "direction": "賣出",
+      "rsi": 47.18,
+      "ma_dist": {
+        "ma10": -1.17,
+        "ma20": -0.77,
+        "ma50": -5.37,
+        "ma200_d": 27.88,
+        "ma200_w": null
+      },
+      "chart": "charts/6446_TW_daily_20261105.html",
+      "chart_daily": "charts/6446_TW_daily_20261105.html",
+      "chart_weekly": "charts/6446_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6446_TW_daily_20261105.html",
+        "weekly": "charts/6446_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6446.TW",
+      "raw_code": "6446",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "藥華藥",
+      "date": "2026-11-05",
+      "close": 1185.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 47.18,
+      "ma_dist": {
+        "ma10": -1.17,
+        "ma20": -0.77,
+        "ma50": -5.37,
+        "ma200_d": 27.88,
+        "ma200_w": null
+      },
+      "chart": "charts/6446_TW_daily_20261105.html",
+      "chart_daily": "charts/6446_TW_daily_20261105.html",
+      "chart_weekly": "charts/6446_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6446_TW_daily_20261105.html",
+        "weekly": "charts/6446_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2603.TW",
+      "raw_code": "2603",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "長榮",
+      "date": "2026-11-05",
+      "close": 259.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 52.54,
+      "ma_dist": {
+        "ma10": -2.08,
+        "ma20": -0.27,
+        "ma50": 5.16,
+        "ma200_d": 20.63,
+        "ma200_w": null
+      },
+      "chart": "charts/2603_TW_daily_20261105.html",
+      "chart_daily": "charts/2603_TW_daily_20261105.html",
+      "chart_weekly": "charts/2603_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2603_TW_daily_20261105.html",
+        "weekly": "charts/2603_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2468.TW",
+      "raw_code": "2468",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "華經",
+      "date": "2026-11-05",
+      "close": 59.0,
+      "pattern": "大陰線",
+      "direction": "賣出",
+      "rsi": 65.15,
+      "ma_dist": {
+        "ma10": 5.73,
+        "ma20": 15.31,
+        "ma50": 34.6,
+        "ma200_d": 54.34,
+        "ma200_w": null
+      },
+      "chart": "charts/2468_TW_daily_20261105.html",
+      "chart_daily": "charts/2468_TW_daily_20261105.html",
+      "chart_weekly": "charts/2468_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2468_TW_daily_20261105.html",
+        "weekly": "charts/2468_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     }
@@ -268,23 +718,83 @@
       "close": 2370.0,
       "pattern": "倒錘子線",
       "direction": "買入",
-      "rsi": 26.87,
+      "rsi": 25.31,
       "ma_dist": {
-        "ma10": 0.06,
-        "ma20": -2.49,
-        "ma50": -2.72,
-        "ma200_d": 7.73,
+        "ma10": 0.83,
+        "ma20": -1.79,
+        "ma50": -2.58,
+        "ma200_d": 7.6,
         "ma200_w": null
       },
-      "chart": "charts/2330_TW_daily_20261104.html",
-      "chart_daily": "charts/2330_TW_daily_20261104.html",
+      "chart": "charts/2330_TW_daily_20261105.html",
+      "chart_daily": "charts/2330_TW_daily_20261105.html",
       "chart_weekly": "charts/2330_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2330_TW_daily_20261104.html",
+        "daily": "charts/2330_TW_daily_20261105.html",
         "weekly": "charts/2330_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "5289.TWO",
+      "raw_code": "5289",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "宜鼎",
+      "date": "2026-10-30",
+      "close": 1120.0,
+      "pattern": "看漲孕線",
+      "direction": "買入",
+      "rsi": 26.6,
+      "ma_dist": {
+        "ma10": 3.99,
+        "ma20": -0.51,
+        "ma50": -11.19,
+        "ma200_d": -10.6,
+        "ma200_w": null
+      },
+      "chart": "charts/5289_TWO_daily_20261105.html",
+      "chart_daily": "charts/5289_TWO_daily_20261105.html",
+      "chart_weekly": "charts/5289_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/5289_TWO_daily_20261105.html",
+        "weekly": "charts/5289_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "5289.TWO",
+      "raw_code": "5289",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "宜鼎",
+      "date": "2026-10-30",
+      "close": 1120.0,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 26.6,
+      "ma_dist": {
+        "ma10": 3.99,
+        "ma20": -0.51,
+        "ma50": -11.19,
+        "ma200_d": -10.6,
+        "ma200_w": null
+      },
+      "chart": "charts/5289_TWO_daily_20261105.html",
+      "chart_daily": "charts/5289_TWO_daily_20261105.html",
+      "chart_weekly": "charts/5289_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/5289_TWO_daily_20261105.html",
+        "weekly": "charts/5289_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -298,83 +808,23 @@
       "close": 447.0,
       "pattern": "倒錘子線",
       "direction": "買入",
-      "rsi": 30.53,
+      "rsi": 27.8,
       "ma_dist": {
-        "ma10": 0.37,
-        "ma20": -9.54,
-        "ma50": -18.42,
-        "ma200_d": -7.4,
+        "ma10": 3.66,
+        "ma20": -7.46,
+        "ma50": -17.73,
+        "ma200_d": -7.44,
         "ma200_w": null
       },
-      "chart": "charts/4979_TWO_daily_20261104.html",
-      "chart_daily": "charts/4979_TWO_daily_20261104.html",
+      "chart": "charts/4979_TWO_daily_20261105.html",
+      "chart_daily": "charts/4979_TWO_daily_20261105.html",
       "chart_weekly": "charts/4979_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/4979_TWO_daily_20261104.html",
+        "daily": "charts/4979_TWO_daily_20261105.html",
         "weekly": "charts/4979_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "5289.TWO",
-      "raw_code": "5289",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "宜鼎",
-      "date": "2026-10-30",
-      "close": 1120.0,
-      "pattern": "看漲孕線",
-      "direction": "買入",
-      "rsi": 30.83,
-      "ma_dist": {
-        "ma10": 2.56,
-        "ma20": -1.9,
-        "ma50": -12.01,
-        "ma200_d": -10.48,
-        "ma200_w": null
-      },
-      "chart": "charts/5289_TWO_daily_20261104.html",
-      "chart_daily": "charts/5289_TWO_daily_20261104.html",
-      "chart_weekly": "charts/5289_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/5289_TWO_daily_20261104.html",
-        "weekly": "charts/5289_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "5289.TWO",
-      "raw_code": "5289",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "宜鼎",
-      "date": "2026-10-30",
-      "close": 1120.0,
-      "pattern": "倒錘子線",
-      "direction": "買入",
-      "rsi": 30.83,
-      "ma_dist": {
-        "ma10": 2.56,
-        "ma20": -1.9,
-        "ma50": -12.01,
-        "ma200_d": -10.48,
-        "ma200_w": null
-      },
-      "chart": "charts/5289_TWO_daily_20261104.html",
-      "chart_daily": "charts/5289_TWO_daily_20261104.html",
-      "chart_weekly": "charts/5289_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/5289_TWO_daily_20261104.html",
-        "weekly": "charts/5289_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -388,23 +838,23 @@
       "close": 346.5,
       "pattern": "看漲孕線",
       "direction": "買入",
-      "rsi": 33.19,
+      "rsi": 28.27,
       "ma_dist": {
-        "ma10": 2.9,
-        "ma20": -0.19,
-        "ma50": -8.6,
-        "ma200_d": -8.82,
+        "ma10": 3.91,
+        "ma20": 0.83,
+        "ma50": -8.01,
+        "ma200_d": -8.83,
         "ma200_w": null
       },
-      "chart": "charts/3260_TWO_daily_20261104.html",
-      "chart_daily": "charts/3260_TWO_daily_20261104.html",
+      "chart": "charts/3260_TWO_daily_20261105.html",
+      "chart_daily": "charts/3260_TWO_daily_20261105.html",
       "chart_weekly": "charts/3260_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3260_TWO_daily_20261104.html",
+        "daily": "charts/3260_TWO_daily_20261105.html",
         "weekly": "charts/3260_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -418,53 +868,23 @@
       "close": 346.5,
       "pattern": "倒錘子線",
       "direction": "買入",
-      "rsi": 33.19,
+      "rsi": 28.27,
       "ma_dist": {
-        "ma10": 2.9,
-        "ma20": -0.19,
-        "ma50": -8.6,
-        "ma200_d": -8.82,
+        "ma10": 3.91,
+        "ma20": 0.83,
+        "ma50": -8.01,
+        "ma200_d": -8.83,
         "ma200_w": null
       },
-      "chart": "charts/3260_TWO_daily_20261104.html",
-      "chart_daily": "charts/3260_TWO_daily_20261104.html",
+      "chart": "charts/3260_TWO_daily_20261105.html",
+      "chart_daily": "charts/3260_TWO_daily_20261105.html",
       "chart_weekly": "charts/3260_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3260_TWO_daily_20261104.html",
+        "daily": "charts/3260_TWO_daily_20261105.html",
         "weekly": "charts/3260_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "3081.TWO",
-      "raw_code": "3081",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "聯亞",
-      "date": "2026-10-30",
-      "close": 2370.0,
-      "pattern": "倒錘子線",
-      "direction": "買入",
-      "rsi": 34.62,
-      "ma_dist": {
-        "ma10": -1.62,
-        "ma20": -8.82,
-        "ma50": -15.63,
-        "ma200_d": 16.55,
-        "ma200_w": null
-      },
-      "chart": "charts/3081_TWO_daily_20261104.html",
-      "chart_daily": "charts/3081_TWO_daily_20261104.html",
-      "chart_weekly": "charts/3081_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/3081_TWO_daily_20261104.html",
-        "weekly": "charts/3081_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -478,53 +898,53 @@
       "close": 164.5,
       "pattern": "倒錘子線",
       "direction": "買入",
-      "rsi": 34.92,
+      "rsi": 29.26,
       "ma_dist": {
-        "ma10": 3.59,
-        "ma20": 1.32,
-        "ma50": -3.64,
-        "ma200_d": 15.31,
+        "ma10": 5.72,
+        "ma20": 2.91,
+        "ma50": -3.04,
+        "ma200_d": 15.21,
         "ma200_w": null
       },
-      "chart": "charts/2344_TW_daily_20261104.html",
-      "chart_daily": "charts/2344_TW_daily_20261104.html",
+      "chart": "charts/2344_TW_daily_20261105.html",
+      "chart_daily": "charts/2344_TW_daily_20261105.html",
       "chart_weekly": "charts/2344_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2344_TW_daily_20261104.html",
+        "daily": "charts/2344_TW_daily_20261105.html",
         "weekly": "charts/2344_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "5871.TW",
-      "raw_code": "5871",
-      "market": "TWSE",
+      "code": "3081.TWO",
+      "raw_code": "3081",
+      "market": "TPEx",
       "kind": "weekly",
-      "name": "中租-KY",
+      "name": "聯亞",
       "date": "2026-10-30",
-      "close": 105.5,
+      "close": 2370.0,
       "pattern": "倒錘子線",
       "direction": "買入",
-      "rsi": 36.58,
+      "rsi": 30.44,
       "ma_dist": {
-        "ma10": -0.61,
-        "ma20": -0.8,
-        "ma50": -3.67,
-        "ma200_d": -3.39,
+        "ma10": 1.48,
+        "ma20": -6.98,
+        "ma50": -15.01,
+        "ma200_d": 16.16,
         "ma200_w": null
       },
-      "chart": "charts/5871_TW_daily_20261104.html",
-      "chart_daily": "charts/5871_TW_daily_20261104.html",
-      "chart_weekly": "charts/5871_TW_weekly_20261030.html",
+      "chart": "charts/3081_TWO_daily_20261105.html",
+      "chart_daily": "charts/3081_TWO_daily_20261105.html",
+      "chart_weekly": "charts/3081_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/5871_TW_daily_20261104.html",
-        "weekly": "charts/5871_TW_weekly_20261030.html"
+        "daily": "charts/3081_TWO_daily_20261105.html",
+        "weekly": "charts/3081_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -538,23 +958,23 @@
       "close": 256.0,
       "pattern": "看漲孕線",
       "direction": "買入",
-      "rsi": 36.6,
+      "rsi": 30.65,
       "ma_dist": {
-        "ma10": 0.27,
-        "ma20": -5.91,
-        "ma50": -7.81,
-        "ma200_d": -3.09,
+        "ma10": 2.11,
+        "ma20": -4.32,
+        "ma50": -7.49,
+        "ma200_d": -3.12,
         "ma200_w": null
       },
-      "chart": "charts/6239_TW_daily_20261104.html",
-      "chart_daily": "charts/6239_TW_daily_20261104.html",
+      "chart": "charts/6239_TW_daily_20261105.html",
+      "chart_daily": "charts/6239_TW_daily_20261105.html",
       "chart_weekly": "charts/6239_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6239_TW_daily_20261104.html",
+        "daily": "charts/6239_TW_daily_20261105.html",
         "weekly": "charts/6239_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -568,23 +988,23 @@
       "close": 450.0,
       "pattern": "看漲孕線",
       "direction": "買入",
-      "rsi": 38.33,
+      "rsi": 33.93,
       "ma_dist": {
-        "ma10": 2.68,
-        "ma20": -6.08,
-        "ma50": -8.79,
-        "ma200_d": 15.14,
+        "ma10": 5.57,
+        "ma20": -4.37,
+        "ma50": -8.48,
+        "ma200_d": 14.87,
         "ma200_w": null
       },
-      "chart": "charts/6727_TWO_daily_20261104.html",
-      "chart_daily": "charts/6727_TWO_daily_20261104.html",
+      "chart": "charts/6727_TWO_daily_20261105.html",
+      "chart_daily": "charts/6727_TWO_daily_20261105.html",
       "chart_weekly": "charts/6727_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6727_TWO_daily_20261104.html",
+        "daily": "charts/6727_TWO_daily_20261105.html",
         "weekly": "charts/6727_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -598,53 +1018,23 @@
       "close": 87.4,
       "pattern": "倒錘子線",
       "direction": "買入",
-      "rsi": 39.66,
+      "rsi": 34.35,
       "ma_dist": {
-        "ma10": 0.11,
-        "ma20": -5.31,
-        "ma50": -8.82,
-        "ma200_d": 41.55,
+        "ma10": 2.38,
+        "ma20": -3.6,
+        "ma50": -8.64,
+        "ma200_d": 40.92,
         "ma200_w": null
       },
-      "chart": "charts/2426_TW_daily_20261104.html",
-      "chart_daily": "charts/2426_TW_daily_20261104.html",
+      "chart": "charts/2426_TW_daily_20261105.html",
+      "chart_daily": "charts/2426_TW_daily_20261105.html",
       "chart_weekly": "charts/2426_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2426_TW_daily_20261104.html",
+        "daily": "charts/2426_TW_daily_20261105.html",
         "weekly": "charts/2426_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "6538.TWO",
-      "raw_code": "6538",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "倉和",
-      "date": "2026-10-30",
-      "close": 290.5,
-      "pattern": "倒錘子線",
-      "direction": "買入",
-      "rsi": 43.95,
-      "ma_dist": {
-        "ma10": 0.4,
-        "ma20": -2.75,
-        "ma50": -6.11,
-        "ma200_d": 92.02,
-        "ma200_w": null
-      },
-      "chart": "charts/6538_TWO_daily_20261104.html",
-      "chart_daily": "charts/6538_TWO_daily_20261104.html",
-      "chart_weekly": "charts/6538_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/6538_TWO_daily_20261104.html",
-        "weekly": "charts/6538_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -658,23 +1048,83 @@
       "close": 942.0,
       "pattern": "看漲孕線",
       "direction": "買入",
-      "rsi": 44.14,
+      "rsi": 38.25,
       "ma_dist": {
-        "ma10": 1.05,
-        "ma20": -2.98,
-        "ma50": 6.2,
-        "ma200_d": 44.5,
+        "ma10": 3.53,
+        "ma20": -1.75,
+        "ma50": 6.08,
+        "ma200_d": 43.89,
         "ma200_w": null
       },
-      "chart": "charts/3167_TW_daily_20261104.html",
-      "chart_daily": "charts/3167_TW_daily_20261104.html",
+      "chart": "charts/3167_TW_daily_20261105.html",
+      "chart_daily": "charts/3167_TW_daily_20261105.html",
       "chart_weekly": "charts/3167_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3167_TW_daily_20261104.html",
+        "daily": "charts/3167_TW_daily_20261105.html",
         "weekly": "charts/3167_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "5871.TW",
+      "raw_code": "5871",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "中租-KY",
+      "date": "2026-10-30",
+      "close": 105.5,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 39.23,
+      "ma_dist": {
+        "ma10": -0.33,
+        "ma20": -0.78,
+        "ma50": -3.48,
+        "ma200_d": -3.4,
+        "ma200_w": null
+      },
+      "chart": "charts/5871_TW_daily_20261105.html",
+      "chart_daily": "charts/5871_TW_daily_20261105.html",
+      "chart_weekly": "charts/5871_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/5871_TW_daily_20261105.html",
+        "weekly": "charts/5871_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6538.TWO",
+      "raw_code": "6538",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "倉和",
+      "date": "2026-10-30",
+      "close": 290.5,
+      "pattern": "倒錘子線",
+      "direction": "買入",
+      "rsi": 43.46,
+      "ma_dist": {
+        "ma10": 1.38,
+        "ma20": -2.27,
+        "ma50": -6.56,
+        "ma200_d": 90.71,
+        "ma200_w": null
+      },
+      "chart": "charts/6538_TWO_daily_20261105.html",
+      "chart_daily": "charts/6538_TWO_daily_20261105.html",
+      "chart_weekly": "charts/6538_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6538_TWO_daily_20261105.html",
+        "weekly": "charts/6538_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -688,23 +1138,23 @@
       "close": 448.0,
       "pattern": "倒錘子線",
       "direction": "買入",
-      "rsi": 45.29,
+      "rsi": 43.48,
       "ma_dist": {
-        "ma10": -3.83,
-        "ma20": -8.25,
-        "ma50": -14.02,
-        "ma200_d": -7.9,
+        "ma10": -3.01,
+        "ma20": -7.56,
+        "ma50": -13.99,
+        "ma200_d": -8.16,
         "ma200_w": null
       },
-      "chart": "charts/6830_TW_daily_20261104.html",
-      "chart_daily": "charts/6830_TW_daily_20261104.html",
+      "chart": "charts/6830_TW_daily_20261105.html",
+      "chart_daily": "charts/6830_TW_daily_20261105.html",
       "chart_weekly": "charts/6830_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6830_TW_daily_20261104.html",
+        "daily": "charts/6830_TW_daily_20261105.html",
         "weekly": "charts/6830_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -718,23 +1168,23 @@
       "close": 63.5,
       "pattern": "看漲孕線",
       "direction": "買入",
-      "rsi": 52.31,
+      "rsi": 43.67,
       "ma_dist": {
-        "ma10": 1.49,
-        "ma20": 1.56,
-        "ma50": 4.65,
-        "ma200_d": 15.72,
+        "ma10": 1.83,
+        "ma20": 1.49,
+        "ma50": 4.79,
+        "ma200_d": 15.67,
         "ma200_w": null
       },
-      "chart": "charts/2609_TW_daily_20261104.html",
-      "chart_daily": "charts/2609_TW_daily_20261104.html",
+      "chart": "charts/2609_TW_daily_20261105.html",
+      "chart_daily": "charts/2609_TW_daily_20261105.html",
       "chart_weekly": "charts/2609_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2609_TW_daily_20261104.html",
+        "daily": "charts/2609_TW_daily_20261105.html",
         "weekly": "charts/2609_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -748,23 +1198,23 @@
       "close": 1190.0,
       "pattern": "看漲孕線",
       "direction": "買入",
-      "rsi": 56.1,
+      "rsi": 47.18,
       "ma_dist": {
-        "ma10": -0.67,
-        "ma20": -0.31,
-        "ma50": -5.29,
-        "ma200_d": 28.93,
+        "ma10": -0.75,
+        "ma20": -0.36,
+        "ma50": -4.97,
+        "ma200_d": 28.42,
         "ma200_w": null
       },
-      "chart": "charts/6446_TW_daily_20261104.html",
-      "chart_daily": "charts/6446_TW_daily_20261104.html",
+      "chart": "charts/6446_TW_daily_20261105.html",
+      "chart_daily": "charts/6446_TW_daily_20261105.html",
       "chart_weekly": "charts/6446_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6446_TW_daily_20261104.html",
+        "daily": "charts/6446_TW_daily_20261105.html",
         "weekly": "charts/6446_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -778,23 +1228,23 @@
       "close": 44.6,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 58.43,
+      "rsi": 56.87,
       "ma_dist": {
-        "ma10": 3.79,
-        "ma20": 7.26,
-        "ma50": 13.97,
-        "ma200_d": 36.74,
+        "ma10": 3.56,
+        "ma20": 6.79,
+        "ma50": 13.47,
+        "ma200_d": 36.48,
         "ma200_w": null
       },
-      "chart": "charts/2892_TW_daily_20261104.html",
-      "chart_daily": "charts/2892_TW_daily_20261104.html",
+      "chart": "charts/2892_TW_daily_20261105.html",
+      "chart_daily": "charts/2892_TW_daily_20261105.html",
       "chart_weekly": "charts/2892_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2892_TW_daily_20261104.html",
+        "daily": "charts/2892_TW_daily_20261105.html",
         "weekly": "charts/2892_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -808,23 +1258,23 @@
       "close": 354.0,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 70.52,
+      "rsi": 60.93,
       "ma_dist": {
-        "ma10": 14.14,
-        "ma20": 36.8,
-        "ma50": 109.68,
-        "ma200_d": 290.53,
+        "ma10": 12.36,
+        "ma20": 33.52,
+        "ma50": 104.98,
+        "ma200_d": 285.63,
         "ma200_w": null
       },
-      "chart": "charts/2466_TW_daily_20261104.html",
-      "chart_daily": "charts/2466_TW_daily_20261104.html",
+      "chart": "charts/2466_TW_daily_20261105.html",
+      "chart_daily": "charts/2466_TW_daily_20261105.html",
       "chart_weekly": "charts/2466_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2466_TW_daily_20261104.html",
+        "daily": "charts/2466_TW_daily_20261105.html",
         "weekly": "charts/2466_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -838,23 +1288,23 @@
       "close": 160.5,
       "pattern": "向上窗口",
       "direction": "買入",
-      "rsi": 86.17,
+      "rsi": 86.83,
       "ma_dist": {
-        "ma10": 2.39,
-        "ma20": 7.21,
-        "ma50": 30.31,
-        "ma200_d": 50.87,
+        "ma10": 1.17,
+        "ma20": 6.1,
+        "ma50": 28.78,
+        "ma200_d": 50.46,
         "ma200_w": null
       },
-      "chart": "charts/6199_TWO_daily_20261104.html",
-      "chart_daily": "charts/6199_TWO_daily_20261104.html",
+      "chart": "charts/6199_TWO_daily_20261105.html",
+      "chart_daily": "charts/6199_TWO_daily_20261105.html",
       "chart_weekly": "charts/6199_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6199_TWO_daily_20261104.html",
+        "daily": "charts/6199_TWO_daily_20261105.html",
         "weekly": "charts/6199_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -868,53 +1318,23 @@
       "close": 139.5,
       "pattern": "大陰線",
       "direction": "賣出",
-      "rsi": 20.86,
+      "rsi": 19.39,
       "ma_dist": {
-        "ma10": -8.76,
-        "ma20": -14.54,
-        "ma50": -21.99,
-        "ma200_d": -29.43,
+        "ma10": -4.84,
+        "ma20": -13.15,
+        "ma50": -21.43,
+        "ma200_d": -29.24,
         "ma200_w": null
       },
-      "chart": "charts/3376_TW_daily_20261104.html",
-      "chart_daily": "charts/3376_TW_daily_20261104.html",
+      "chart": "charts/3376_TW_daily_20261105.html",
+      "chart_daily": "charts/3376_TW_daily_20261105.html",
       "chart_weekly": "charts/3376_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3376_TW_daily_20261104.html",
+        "daily": "charts/3376_TW_daily_20261105.html",
         "weekly": "charts/3376_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "3023.TW",
-      "raw_code": "3023",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "信邦",
-      "date": "2026-10-30",
-      "close": 250.0,
-      "pattern": "大陰線",
-      "direction": "賣出",
-      "rsi": 25.8,
-      "ma_dist": {
-        "ma10": -7.53,
-        "ma20": -15.01,
-        "ma50": -19.28,
-        "ma200_d": -12.27,
-        "ma200_w": null
-      },
-      "chart": "charts/3023_TW_daily_20261104.html",
-      "chart_daily": "charts/3023_TW_daily_20261104.html",
-      "chart_weekly": "charts/3023_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/3023_TW_daily_20261104.html",
-        "weekly": "charts/3023_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -928,23 +1348,23 @@
       "close": 81.9,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 27.2,
+      "rsi": 22.88,
       "ma_dist": {
-        "ma10": -0.62,
-        "ma20": -1.67,
-        "ma50": -4.29,
-        "ma200_d": -3.17,
+        "ma10": 0.53,
+        "ma20": -1.15,
+        "ma50": -3.88,
+        "ma200_d": -3.15,
         "ma200_w": null
       },
-      "chart": "charts/8112_TW_daily_20261104.html",
-      "chart_daily": "charts/8112_TW_daily_20261104.html",
+      "chart": "charts/8112_TW_daily_20261105.html",
+      "chart_daily": "charts/8112_TW_daily_20261105.html",
       "chart_weekly": "charts/8112_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/8112_TW_daily_20261104.html",
+        "daily": "charts/8112_TW_daily_20261105.html",
         "weekly": "charts/8112_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -958,83 +1378,23 @@
       "close": 240.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 28.01,
+      "rsi": 23.78,
       "ma_dist": {
-        "ma10": -2.97,
-        "ma20": -8.91,
-        "ma50": -14.01,
-        "ma200_d": 11.63,
+        "ma10": -0.89,
+        "ma20": -7.38,
+        "ma50": -13.71,
+        "ma200_d": 11.52,
         "ma200_w": null
       },
-      "chart": "charts/2301_TW_daily_20261104.html",
-      "chart_daily": "charts/2301_TW_daily_20261104.html",
+      "chart": "charts/2301_TW_daily_20261105.html",
+      "chart_daily": "charts/2301_TW_daily_20261105.html",
       "chart_weekly": "charts/2301_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2301_TW_daily_20261104.html",
+        "daily": "charts/2301_TW_daily_20261105.html",
         "weekly": "charts/2301_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "3532.TW",
-      "raw_code": "3532",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "台勝科",
-      "date": "2026-10-30",
-      "close": 355.5,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 28.52,
-      "ma_dist": {
-        "ma10": -6.11,
-        "ma20": -13.72,
-        "ma50": -14.49,
-        "ma200_d": 24.86,
-        "ma200_w": null
-      },
-      "chart": "charts/3532_TW_daily_20261104.html",
-      "chart_daily": "charts/3532_TW_daily_20261104.html",
-      "chart_weekly": "charts/3532_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/3532_TW_daily_20261104.html",
-        "weekly": "charts/3532_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "8021.TW",
-      "raw_code": "8021",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "尖點",
-      "date": "2026-10-30",
-      "close": 418.5,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 29.52,
-      "ma_dist": {
-        "ma10": -4.2,
-        "ma20": -13.58,
-        "ma50": -9.99,
-        "ma200_d": 7.74,
-        "ma200_w": null
-      },
-      "chart": "charts/8021_TW_daily_20261104.html",
-      "chart_daily": "charts/8021_TW_daily_20261104.html",
-      "chart_weekly": "charts/8021_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/8021_TW_daily_20261104.html",
-        "weekly": "charts/8021_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1048,23 +1408,23 @@
       "close": 536.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 29.6,
+      "rsi": 24.49,
       "ma_dist": {
-        "ma10": -4.11,
-        "ma20": -10.39,
-        "ma50": -3.73,
-        "ma200_d": 21.12,
+        "ma10": -0.95,
+        "ma20": -8.67,
+        "ma50": -3.54,
+        "ma200_d": 20.92,
         "ma200_w": null
       },
-      "chart": "charts/6196_TW_daily_20261104.html",
-      "chart_daily": "charts/6196_TW_daily_20261104.html",
+      "chart": "charts/6196_TW_daily_20261105.html",
+      "chart_daily": "charts/6196_TW_daily_20261105.html",
       "chart_weekly": "charts/6196_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6196_TW_daily_20261104.html",
+        "daily": "charts/6196_TW_daily_20261105.html",
         "weekly": "charts/6196_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1078,113 +1438,83 @@
       "close": 236.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 29.62,
+      "rsi": 24.58,
       "ma_dist": {
-        "ma10": -2.07,
-        "ma20": -7.78,
-        "ma50": -6.57,
-        "ma200_d": -2.97,
+        "ma10": 0.6,
+        "ma20": -6.2,
+        "ma50": -6.21,
+        "ma200_d": -2.96,
         "ma200_w": null
       },
-      "chart": "charts/8028_TW_daily_20261104.html",
-      "chart_daily": "charts/8028_TW_daily_20261104.html",
+      "chart": "charts/8028_TW_daily_20261105.html",
+      "chart_daily": "charts/8028_TW_daily_20261105.html",
       "chart_weekly": "charts/8028_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/8028_TW_daily_20261104.html",
+        "daily": "charts/8028_TW_daily_20261105.html",
         "weekly": "charts/8028_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "7788.TW",
-      "raw_code": "7788",
+      "code": "3532.TW",
+      "raw_code": "3532",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "松川精密",
+      "name": "台勝科",
       "date": "2026-10-30",
-      "close": 242.5,
+      "close": 355.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 29.8,
+      "rsi": 24.76,
       "ma_dist": {
-        "ma10": -5.9,
-        "ma20": -13.91,
-        "ma50": -16.55,
-        "ma200_d": 11.36,
+        "ma10": -2.34,
+        "ma20": -11.74,
+        "ma50": -14.23,
+        "ma200_d": 24.48,
         "ma200_w": null
       },
-      "chart": "charts/7788_TW_daily_20261104.html",
-      "chart_daily": "charts/7788_TW_daily_20261104.html",
-      "chart_weekly": "charts/7788_TW_weekly_20261030.html",
+      "chart": "charts/3532_TW_daily_20261105.html",
+      "chart_daily": "charts/3532_TW_daily_20261105.html",
+      "chart_weekly": "charts/3532_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/7788_TW_daily_20261104.html",
-        "weekly": "charts/7788_TW_weekly_20261030.html"
+        "daily": "charts/3532_TW_daily_20261105.html",
+        "weekly": "charts/3532_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2481.TW",
-      "raw_code": "2481",
+      "code": "8021.TW",
+      "raw_code": "8021",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "強茂",
+      "name": "尖點",
       "date": "2026-10-30",
-      "close": 139.5,
+      "close": 418.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 29.94,
+      "rsi": 24.95,
       "ma_dist": {
-        "ma10": -3.86,
-        "ma20": -10.06,
-        "ma50": -11.38,
-        "ma200_d": 6.64,
+        "ma10": -0.43,
+        "ma20": -11.57,
+        "ma50": -9.78,
+        "ma200_d": 7.53,
         "ma200_w": null
       },
-      "chart": "charts/2481_TW_daily_20261104.html",
-      "chart_daily": "charts/2481_TW_daily_20261104.html",
-      "chart_weekly": "charts/2481_TW_weekly_20261030.html",
+      "chart": "charts/8021_TW_daily_20261105.html",
+      "chart_daily": "charts/8021_TW_daily_20261105.html",
+      "chart_weekly": "charts/8021_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2481_TW_daily_20261104.html",
-        "weekly": "charts/2481_TW_weekly_20261030.html"
+        "daily": "charts/8021_TW_daily_20261105.html",
+        "weekly": "charts/8021_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "6451.TW",
-      "raw_code": "6451",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "訊芯-KY",
-      "date": "2026-10-30",
-      "close": 329.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 30.2,
-      "ma_dist": {
-        "ma10": -3.19,
-        "ma20": -9.75,
-        "ma50": -18.73,
-        "ma200_d": -15.77,
-        "ma200_w": null
-      },
-      "chart": "charts/6451_TW_daily_20261104.html",
-      "chart_daily": "charts/6451_TW_daily_20261104.html",
-      "chart_weekly": "charts/6451_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/6451_TW_daily_20261104.html",
-        "weekly": "charts/6451_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1198,143 +1528,113 @@
       "close": 492.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 30.25,
+      "rsi": 25.2,
       "ma_dist": {
-        "ma10": -0.49,
-        "ma20": -4.94,
-        "ma50": -5.19,
-        "ma200_d": 3.23,
+        "ma10": 1.82,
+        "ma20": -3.5,
+        "ma50": -4.96,
+        "ma200_d": 3.25,
         "ma200_w": null
       },
-      "chart": "charts/3680_TWO_daily_20261104.html",
-      "chart_daily": "charts/3680_TWO_daily_20261104.html",
+      "chart": "charts/3680_TWO_daily_20261105.html",
+      "chart_daily": "charts/3680_TWO_daily_20261105.html",
       "chart_weekly": "charts/3680_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3680_TWO_daily_20261104.html",
+        "daily": "charts/3680_TWO_daily_20261105.html",
         "weekly": "charts/3680_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2455.TW",
-      "raw_code": "2455",
+      "code": "2481.TW",
+      "raw_code": "2481",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "全新",
+      "name": "強茂",
       "date": "2026-10-30",
-      "close": 447.0,
+      "close": 139.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 30.56,
+      "rsi": 25.3,
       "ma_dist": {
-        "ma10": -2.23,
-        "ma20": -8.82,
-        "ma50": -11.34,
-        "ma200_d": 27.9,
+        "ma10": -0.92,
+        "ma20": -8.28,
+        "ma50": -11.19,
+        "ma200_d": 6.49,
         "ma200_w": null
       },
-      "chart": "charts/2455_TW_daily_20261104.html",
-      "chart_daily": "charts/2455_TW_daily_20261104.html",
-      "chart_weekly": "charts/2455_TW_weekly_20261030.html",
+      "chart": "charts/2481_TW_daily_20261105.html",
+      "chart_daily": "charts/2481_TW_daily_20261105.html",
+      "chart_weekly": "charts/2481_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2455_TW_daily_20261104.html",
-        "weekly": "charts/2455_TW_weekly_20261030.html"
+        "daily": "charts/2481_TW_daily_20261105.html",
+        "weekly": "charts/2481_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "7769.TW",
-      "raw_code": "7769",
+      "code": "7788.TW",
+      "raw_code": "7788",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "鴻勁",
+      "name": "松川精密",
       "date": "2026-10-30",
-      "close": 4950.0,
+      "close": 242.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 30.67,
+      "rsi": 25.86,
       "ma_dist": {
-        "ma10": -1.68,
-        "ma20": -7.92,
-        "ma50": -14.92,
-        "ma200_d": -10.16,
+        "ma10": -2.71,
+        "ma20": -11.38,
+        "ma50": -16.29,
+        "ma200_d": 11.18,
         "ma200_w": null
       },
-      "chart": "charts/7769_TW_daily_20261104.html",
-      "chart_daily": "charts/7769_TW_daily_20261104.html",
-      "chart_weekly": "charts/7769_TW_weekly_20261030.html",
+      "chart": "charts/7788_TW_daily_20261105.html",
+      "chart_daily": "charts/7788_TW_daily_20261105.html",
+      "chart_weekly": "charts/7788_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/7769_TW_daily_20261104.html",
-        "weekly": "charts/7769_TW_weekly_20261030.html"
+        "daily": "charts/7788_TW_daily_20261105.html",
+        "weekly": "charts/7788_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2404.TW",
-      "raw_code": "2404",
+      "code": "6451.TW",
+      "raw_code": "6451",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "漢唐",
+      "name": "訊芯-KY",
       "date": "2026-10-30",
-      "close": 1075.0,
+      "close": 329.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 31.01,
+      "rsi": 25.88,
       "ma_dist": {
-        "ma10": 0.42,
-        "ma20": -4.91,
-        "ma50": -4.09,
-        "ma200_d": -0.78,
+        "ma10": -0.12,
+        "ma20": -7.84,
+        "ma50": -18.12,
+        "ma200_d": -15.89,
         "ma200_w": null
       },
-      "chart": "charts/2404_TW_daily_20261104.html",
-      "chart_daily": "charts/2404_TW_daily_20261104.html",
-      "chart_weekly": "charts/2404_TW_weekly_20261030.html",
+      "chart": "charts/6451_TW_daily_20261105.html",
+      "chart_daily": "charts/6451_TW_daily_20261105.html",
+      "chart_weekly": "charts/6451_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2404_TW_daily_20261104.html",
-        "weekly": "charts/2404_TW_weekly_20261030.html"
+        "daily": "charts/6451_TW_daily_20261105.html",
+        "weekly": "charts/6451_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "3037.TW",
-      "raw_code": "3037",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "欣興",
-      "date": "2026-10-30",
-      "close": 989.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 31.48,
-      "ma_dist": {
-        "ma10": -3.47,
-        "ma20": -10.46,
-        "ma50": -8.26,
-        "ma200_d": 23.5,
-        "ma200_w": null
-      },
-      "chart": "charts/3037_TW_daily_20261104.html",
-      "chart_daily": "charts/3037_TW_daily_20261104.html",
-      "chart_weekly": "charts/3037_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/3037_TW_daily_20261104.html",
-        "weekly": "charts/3037_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1348,143 +1648,113 @@
       "close": 297.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 31.67,
+      "rsi": 26.53,
       "ma_dist": {
-        "ma10": -2.15,
-        "ma20": -6.78,
-        "ma50": -5.41,
-        "ma200_d": 37.81,
+        "ma10": 1.33,
+        "ma20": -5.09,
+        "ma50": -5.39,
+        "ma200_d": 37.36,
         "ma200_w": null
       },
-      "chart": "charts/6426_TW_daily_20261104.html",
-      "chart_daily": "charts/6426_TW_daily_20261104.html",
+      "chart": "charts/6426_TW_daily_20261105.html",
+      "chart_daily": "charts/6426_TW_daily_20261105.html",
       "chart_weekly": "charts/6426_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6426_TW_daily_20261104.html",
+        "daily": "charts/6426_TW_daily_20261105.html",
         "weekly": "charts/6426_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2324.TW",
-      "raw_code": "2324",
+      "code": "2455.TW",
+      "raw_code": "2455",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "仁寶",
+      "name": "全新",
       "date": "2026-10-30",
-      "close": 35.2,
+      "close": 447.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 32.33,
+      "rsi": 26.6,
       "ma_dist": {
-        "ma10": -2.56,
-        "ma20": -2.76,
-        "ma50": -6.26,
-        "ma200_d": 2.47,
+        "ma10": 0.96,
+        "ma20": -6.71,
+        "ma50": -11.13,
+        "ma200_d": 27.54,
         "ma200_w": null
       },
-      "chart": "charts/2324_TW_daily_20261104.html",
-      "chart_daily": "charts/2324_TW_daily_20261104.html",
-      "chart_weekly": "charts/2324_TW_weekly_20261030.html",
+      "chart": "charts/2455_TW_daily_20261105.html",
+      "chart_daily": "charts/2455_TW_daily_20261105.html",
+      "chart_weekly": "charts/2455_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2324_TW_daily_20261104.html",
-        "weekly": "charts/2324_TW_weekly_20261030.html"
+        "daily": "charts/2455_TW_daily_20261105.html",
+        "weekly": "charts/2455_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2353.TW",
-      "raw_code": "2353",
+      "code": "3037.TW",
+      "raw_code": "3037",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "宏碁",
+      "name": "欣興",
       "date": "2026-10-30",
-      "close": 30.4,
+      "close": 989.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 32.33,
+      "rsi": 26.63,
       "ma_dist": {
-        "ma10": -3.46,
-        "ma20": -3.74,
-        "ma50": -3.69,
-        "ma200_d": 1.22,
+        "ma10": -0.56,
+        "ma20": -8.35,
+        "ma50": -7.78,
+        "ma200_d": 23.06,
         "ma200_w": null
       },
-      "chart": "charts/2353_TW_daily_20261104.html",
-      "chart_daily": "charts/2353_TW_daily_20261104.html",
-      "chart_weekly": "charts/2353_TW_weekly_20261030.html",
+      "chart": "charts/3037_TW_daily_20261105.html",
+      "chart_daily": "charts/3037_TW_daily_20261105.html",
+      "chart_weekly": "charts/3037_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2353_TW_daily_20261104.html",
-        "weekly": "charts/2353_TW_weekly_20261030.html"
+        "daily": "charts/3037_TW_daily_20261105.html",
+        "weekly": "charts/3037_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "3234.TWO",
-      "raw_code": "3234",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "光環",
-      "date": "2026-10-30",
-      "close": 151.5,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 32.61,
-      "ma_dist": {
-        "ma10": -7.37,
-        "ma20": -11.51,
-        "ma50": -14.64,
-        "ma200_d": 27.74,
-        "ma200_w": null
-      },
-      "chart": "charts/3234_TWO_daily_20261104.html",
-      "chart_daily": "charts/3234_TWO_daily_20261104.html",
-      "chart_weekly": "charts/3234_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/3234_TWO_daily_20261104.html",
-        "weekly": "charts/3234_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "00878.TW",
-      "raw_code": "00878",
+      "code": "7769.TW",
+      "raw_code": "7769",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "國泰永續高股息",
+      "name": "鴻勁",
       "date": "2026-10-30",
-      "close": 34.81,
+      "close": 4950.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 33.03,
+      "rsi": 26.75,
       "ma_dist": {
-        "ma10": -0.36,
-        "ma20": -0.75,
-        "ma50": 0.97,
-        "ma200_d": 19.31,
+        "ma10": 0.62,
+        "ma20": -6.24,
+        "ma50": -14.2,
+        "ma200_d": -10.22,
         "ma200_w": null
       },
-      "chart": "charts/00878_TW_daily_20261104.html",
-      "chart_daily": "charts/00878_TW_daily_20261104.html",
-      "chart_weekly": "charts/00878_TW_weekly_20261030.html",
+      "chart": "charts/7769_TW_daily_20261105.html",
+      "chart_daily": "charts/7769_TW_daily_20261105.html",
+      "chart_weekly": "charts/7769_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/00878_TW_daily_20261104.html",
-        "weekly": "charts/00878_TW_weekly_20261030.html"
+        "daily": "charts/7769_TW_daily_20261105.html",
+        "weekly": "charts/7769_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1498,53 +1768,113 @@
       "close": 411.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 33.12,
+      "rsi": 27.53,
       "ma_dist": {
-        "ma10": -3.74,
-        "ma20": -7.07,
-        "ma50": -9.37,
-        "ma200_d": -5.05,
+        "ma10": -1.21,
+        "ma20": -5.74,
+        "ma50": -9.11,
+        "ma200_d": -5.14,
         "ma200_w": null
       },
-      "chart": "charts/6789_TW_daily_20261104.html",
-      "chart_daily": "charts/6789_TW_daily_20261104.html",
+      "chart": "charts/6789_TW_daily_20261105.html",
+      "chart_daily": "charts/6789_TW_daily_20261105.html",
       "chart_weekly": "charts/6789_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6789_TW_daily_20261104.html",
+        "daily": "charts/6789_TW_daily_20261105.html",
         "weekly": "charts/6789_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "2347.TW",
-      "raw_code": "2347",
+      "code": "2404.TW",
+      "raw_code": "2404",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "聯強",
+      "name": "漢唐",
       "date": "2026-10-30",
-      "close": 99.5,
-      "pattern": "流星線",
+      "close": 1075.0,
+      "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 33.48,
+      "rsi": 27.55,
       "ma_dist": {
-        "ma10": 1.48,
-        "ma20": 0.66,
-        "ma50": 6.44,
-        "ma200_d": 18.44,
+        "ma10": 1.84,
+        "ma20": -3.29,
+        "ma50": -3.92,
+        "ma200_d": -0.75,
         "ma200_w": null
       },
-      "chart": "charts/2347_TW_daily_20261104.html",
-      "chart_daily": "charts/2347_TW_daily_20261104.html",
-      "chart_weekly": "charts/2347_TW_weekly_20261030.html",
+      "chart": "charts/2404_TW_daily_20261105.html",
+      "chart_daily": "charts/2404_TW_daily_20261105.html",
+      "chart_weekly": "charts/2404_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2347_TW_daily_20261104.html",
-        "weekly": "charts/2347_TW_weekly_20261030.html"
+        "daily": "charts/2404_TW_daily_20261105.html",
+        "weekly": "charts/2404_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "00878.TW",
+      "raw_code": "00878",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "國泰永續高股息",
+      "date": "2026-10-30",
+      "close": 34.81,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 28.35,
+      "ma_dist": {
+        "ma10": 0.31,
+        "ma20": -0.44,
+        "ma50": 0.93,
+        "ma200_d": 19.09,
+        "ma200_w": null
+      },
+      "chart": "charts/00878_TW_daily_20261105.html",
+      "chart_daily": "charts/00878_TW_daily_20261105.html",
+      "chart_weekly": "charts/00878_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/00878_TW_daily_20261105.html",
+        "weekly": "charts/00878_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "3234.TWO",
+      "raw_code": "3234",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "光環",
+      "date": "2026-10-30",
+      "close": 151.5,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 28.53,
+      "ma_dist": {
+        "ma10": -3.01,
+        "ma20": -10.12,
+        "ma50": -14.43,
+        "ma200_d": 27.32,
+        "ma200_w": null
+      },
+      "chart": "charts/3234_TWO_daily_20261105.html",
+      "chart_daily": "charts/3234_TWO_daily_20261105.html",
+      "chart_weekly": "charts/3234_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/3234_TWO_daily_20261105.html",
+        "weekly": "charts/3234_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1558,83 +1888,53 @@
       "close": 270.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 33.55,
+      "rsi": 28.75,
       "ma_dist": {
-        "ma10": -1.04,
-        "ma20": -4.77,
-        "ma50": -5.97,
-        "ma200_d": 45.08,
+        "ma10": 1.67,
+        "ma20": -3.23,
+        "ma50": -5.87,
+        "ma200_d": 44.55,
         "ma200_w": null
       },
-      "chart": "charts/6173_TWO_daily_20261104.html",
-      "chart_daily": "charts/6173_TWO_daily_20261104.html",
+      "chart": "charts/6173_TWO_daily_20261105.html",
+      "chart_daily": "charts/6173_TWO_daily_20261105.html",
       "chart_weekly": "charts/6173_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6173_TWO_daily_20261104.html",
+        "daily": "charts/6173_TWO_daily_20261105.html",
         "weekly": "charts/6173_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "8227.TWO",
-      "raw_code": "8227",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "巨有科技",
-      "date": "2026-10-30",
-      "close": 241.5,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 33.65,
-      "ma_dist": {
-        "ma10": -3.46,
-        "ma20": -14.17,
-        "ma50": -4.91,
-        "ma200_d": 31.89,
-        "ma200_w": null
-      },
-      "chart": "charts/8227_TWO_daily_20261104.html",
-      "chart_daily": "charts/8227_TWO_daily_20261104.html",
-      "chart_weekly": "charts/8227_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/8227_TWO_daily_20261104.html",
-        "weekly": "charts/8227_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "3481.TW",
-      "raw_code": "3481",
+      "code": "2347.TW",
+      "raw_code": "2347",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "群創",
+      "name": "聯強",
       "date": "2026-10-30",
-      "close": 42.55,
-      "pattern": "看跌吞沒",
+      "close": 99.5,
+      "pattern": "流星線",
       "direction": "賣出",
-      "rsi": 33.98,
+      "rsi": 28.87,
       "ma_dist": {
-        "ma10": -5.84,
-        "ma20": -10.33,
-        "ma50": -12.12,
-        "ma200_d": 4.64,
+        "ma10": 2.79,
+        "ma20": 1.1,
+        "ma50": 6.45,
+        "ma200_d": 18.26,
         "ma200_w": null
       },
-      "chart": "charts/3481_TW_daily_20261104.html",
-      "chart_daily": "charts/3481_TW_daily_20261104.html",
-      "chart_weekly": "charts/3481_TW_weekly_20261030.html",
+      "chart": "charts/2347_TW_daily_20261105.html",
+      "chart_daily": "charts/2347_TW_daily_20261105.html",
+      "chart_weekly": "charts/2347_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3481_TW_daily_20261104.html",
-        "weekly": "charts/3481_TW_weekly_20261030.html"
+        "daily": "charts/2347_TW_daily_20261105.html",
+        "weekly": "charts/2347_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1648,23 +1948,113 @@
       "close": 172.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 34.11,
+      "rsi": 29.01,
       "ma_dist": {
-        "ma10": -4.55,
-        "ma20": -10.52,
-        "ma50": -8.56,
-        "ma200_d": 2.33,
+        "ma10": -1.38,
+        "ma20": -8.96,
+        "ma50": -8.24,
+        "ma200_d": 2.26,
         "ma200_w": null
       },
-      "chart": "charts/2493_TW_daily_20261104.html",
-      "chart_daily": "charts/2493_TW_daily_20261104.html",
+      "chart": "charts/2493_TW_daily_20261105.html",
+      "chart_daily": "charts/2493_TW_daily_20261105.html",
       "chart_weekly": "charts/2493_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2493_TW_daily_20261104.html",
+        "daily": "charts/2493_TW_daily_20261105.html",
         "weekly": "charts/2493_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "3481.TW",
+      "raw_code": "3481",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "群創",
+      "date": "2026-10-30",
+      "close": 42.55,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 29.54,
+      "ma_dist": {
+        "ma10": -3.6,
+        "ma20": -9.07,
+        "ma50": -11.83,
+        "ma200_d": 4.43,
+        "ma200_w": null
+      },
+      "chart": "charts/3481_TW_daily_20261105.html",
+      "chart_daily": "charts/3481_TW_daily_20261105.html",
+      "chart_weekly": "charts/3481_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/3481_TW_daily_20261105.html",
+        "weekly": "charts/3481_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2324.TW",
+      "raw_code": "2324",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "仁寶",
+      "date": "2026-10-30",
+      "close": 35.2,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 29.62,
+      "ma_dist": {
+        "ma10": -1.12,
+        "ma20": -2.3,
+        "ma50": -5.94,
+        "ma200_d": 2.45,
+        "ma200_w": null
+      },
+      "chart": "charts/2324_TW_daily_20261105.html",
+      "chart_daily": "charts/2324_TW_daily_20261105.html",
+      "chart_weekly": "charts/2324_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2324_TW_daily_20261105.html",
+        "weekly": "charts/2324_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "8227.TWO",
+      "raw_code": "8227",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "巨有科技",
+      "date": "2026-10-30",
+      "close": 241.5,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 29.69,
+      "ma_dist": {
+        "ma10": 0.25,
+        "ma20": -11.39,
+        "ma50": -5.19,
+        "ma200_d": 31.7,
+        "ma200_w": null
+      },
+      "chart": "charts/8227_TWO_daily_20261105.html",
+      "chart_daily": "charts/8227_TWO_daily_20261105.html",
+      "chart_weekly": "charts/8227_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/8227_TWO_daily_20261105.html",
+        "weekly": "charts/8227_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1678,23 +2068,23 @@
       "close": 486.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 34.23,
+      "rsi": 29.86,
       "ma_dist": {
-        "ma10": -5.65,
-        "ma20": -9.85,
-        "ma50": -4.51,
-        "ma200_d": 21.05,
+        "ma10": -2.15,
+        "ma20": -8.32,
+        "ma50": -4.34,
+        "ma200_d": 20.68,
         "ma200_w": null
       },
-      "chart": "charts/4958_TW_daily_20261104.html",
-      "chart_daily": "charts/4958_TW_daily_20261104.html",
+      "chart": "charts/4958_TW_daily_20261105.html",
+      "chart_daily": "charts/4958_TW_daily_20261105.html",
       "chart_weekly": "charts/4958_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/4958_TW_daily_20261104.html",
+        "daily": "charts/4958_TW_daily_20261105.html",
         "weekly": "charts/4958_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1708,53 +2098,23 @@
       "close": 124.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 34.63,
+      "rsi": 30.3,
       "ma_dist": {
-        "ma10": -2.7,
-        "ma20": -9.09,
-        "ma50": -4.15,
-        "ma200_d": -0.98,
+        "ma10": 0.92,
+        "ma20": -7.3,
+        "ma50": -3.91,
+        "ma200_d": -1.15,
         "ma200_w": null
       },
-      "chart": "charts/4919_TW_daily_20261104.html",
-      "chart_daily": "charts/4919_TW_daily_20261104.html",
+      "chart": "charts/4919_TW_daily_20261105.html",
+      "chart_daily": "charts/4919_TW_daily_20261105.html",
       "chart_weekly": "charts/4919_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/4919_TW_daily_20261104.html",
+        "daily": "charts/4919_TW_daily_20261105.html",
         "weekly": "charts/4919_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "2489.TW",
-      "raw_code": "2489",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "瑞軒",
-      "date": "2026-10-30",
-      "close": 35.75,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 35.79,
-      "ma_dist": {
-        "ma10": -4.77,
-        "ma20": -8.22,
-        "ma50": -10.41,
-        "ma200_d": -3.32,
-        "ma200_w": null
-      },
-      "chart": "charts/2489_TW_daily_20261104.html",
-      "chart_daily": "charts/2489_TW_daily_20261104.html",
-      "chart_weekly": "charts/2489_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/2489_TW_daily_20261104.html",
-        "weekly": "charts/2489_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -1768,353 +2128,83 @@
       "close": 78.5,
       "pattern": "大陰線",
       "direction": "賣出",
-      "rsi": 36.42,
+      "rsi": 30.45,
       "ma_dist": {
-        "ma10": -7.72,
-        "ma20": -10.9,
-        "ma50": -7.62,
-        "ma200_d": -17.91,
+        "ma10": -5.44,
+        "ma20": -10.13,
+        "ma50": -7.4,
+        "ma200_d": -17.75,
         "ma200_w": null
       },
-      "chart": "charts/6191_TW_daily_20261104.html",
-      "chart_daily": "charts/6191_TW_daily_20261104.html",
+      "chart": "charts/6191_TW_daily_20261105.html",
+      "chart_daily": "charts/6191_TW_daily_20261105.html",
       "chart_weekly": "charts/6191_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6191_TW_daily_20261104.html",
+        "daily": "charts/6191_TW_daily_20261105.html",
         "weekly": "charts/6191_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "3714.TW",
-      "raw_code": "3714",
+      "code": "2489.TW",
+      "raw_code": "2489",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "富采",
+      "name": "瑞軒",
       "date": "2026-10-30",
-      "close": 58.1,
+      "close": 35.75,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 36.63,
+      "rsi": 30.87,
       "ma_dist": {
-        "ma10": -4.22,
-        "ma20": -6.76,
-        "ma50": -8.66,
-        "ma200_d": 1.45,
+        "ma10": -2.16,
+        "ma20": -7.3,
+        "ma50": -10.24,
+        "ma200_d": -3.51,
         "ma200_w": null
       },
-      "chart": "charts/3714_TW_daily_20261104.html",
-      "chart_daily": "charts/3714_TW_daily_20261104.html",
-      "chart_weekly": "charts/3714_TW_weekly_20261030.html",
+      "chart": "charts/2489_TW_daily_20261105.html",
+      "chart_daily": "charts/2489_TW_daily_20261105.html",
+      "chart_weekly": "charts/2489_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3714_TW_daily_20261104.html",
-        "weekly": "charts/3714_TW_weekly_20261030.html"
+        "daily": "charts/2489_TW_daily_20261105.html",
+        "weekly": "charts/2489_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "6147.TWO",
-      "raw_code": "6147",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "頎邦",
-      "date": "2026-10-30",
-      "close": 196.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 37.17,
-      "ma_dist": {
-        "ma10": -1.36,
-        "ma20": -6.12,
-        "ma50": -2.6,
-        "ma200_d": 25.69,
-        "ma200_w": null
-      },
-      "chart": "charts/6147_TWO_daily_20261104.html",
-      "chart_daily": "charts/6147_TWO_daily_20261104.html",
-      "chart_weekly": "charts/6147_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/6147_TWO_daily_20261104.html",
-        "weekly": "charts/6147_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "3189.TW",
-      "raw_code": "3189",
+      "code": "2353.TW",
+      "raw_code": "2353",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "景碩",
+      "name": "宏碁",
       "date": "2026-10-30",
-      "close": 932.0,
+      "close": 30.4,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 37.35,
+      "rsi": 30.96,
       "ma_dist": {
-        "ma10": -0.85,
-        "ma20": -5.39,
-        "ma50": 1.8,
-        "ma200_d": 51.65,
+        "ma10": -2.5,
+        "ma20": -3.46,
+        "ma50": -3.6,
+        "ma200_d": 1.16,
         "ma200_w": null
       },
-      "chart": "charts/3189_TW_daily_20261104.html",
-      "chart_daily": "charts/3189_TW_daily_20261104.html",
-      "chart_weekly": "charts/3189_TW_weekly_20261030.html",
+      "chart": "charts/2353_TW_daily_20261105.html",
+      "chart_daily": "charts/2353_TW_daily_20261105.html",
+      "chart_weekly": "charts/2353_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3189_TW_daily_20261104.html",
-        "weekly": "charts/3189_TW_weekly_20261030.html"
+        "daily": "charts/2353_TW_daily_20261105.html",
+        "weekly": "charts/2353_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "4542.TWO",
-      "raw_code": "4542",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "科嶠",
-      "date": "2026-10-30",
-      "close": 332.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 37.61,
-      "ma_dist": {
-        "ma10": -1.93,
-        "ma20": -3.88,
-        "ma50": 6.02,
-        "ma200_d": 33.16,
-        "ma200_w": null
-      },
-      "chart": "charts/4542_TWO_daily_20261104.html",
-      "chart_daily": "charts/4542_TWO_daily_20261104.html",
-      "chart_weekly": "charts/4542_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/4542_TWO_daily_20261104.html",
-        "weekly": "charts/4542_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "2409.TW",
-      "raw_code": "2409",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "友達",
-      "date": "2026-10-30",
-      "close": 30.65,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 37.79,
-      "ma_dist": {
-        "ma10": -7.23,
-        "ma20": -11.36,
-        "ma50": -4.48,
-        "ma200_d": 30.26,
-        "ma200_w": null
-      },
-      "chart": "charts/2409_TW_daily_20261104.html",
-      "chart_daily": "charts/2409_TW_daily_20261104.html",
-      "chart_weekly": "charts/2409_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/2409_TW_daily_20261104.html",
-        "weekly": "charts/2409_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "6207.TWO",
-      "raw_code": "6207",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "雷科",
-      "date": "2026-10-30",
-      "close": 119.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 37.84,
-      "ma_dist": {
-        "ma10": -4.91,
-        "ma20": -9.47,
-        "ma50": -2.84,
-        "ma200_d": 25.38,
-        "ma200_w": null
-      },
-      "chart": "charts/6207_TWO_daily_20261104.html",
-      "chart_daily": "charts/6207_TWO_daily_20261104.html",
-      "chart_weekly": "charts/6207_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/6207_TWO_daily_20261104.html",
-        "weekly": "charts/6207_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "6278.TW",
-      "raw_code": "6278",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "台表科",
-      "date": "2026-10-30",
-      "close": 252.5,
-      "pattern": "大陰線",
-      "direction": "賣出",
-      "rsi": 38.3,
-      "ma_dist": {
-        "ma10": -6.05,
-        "ma20": -6.92,
-        "ma50": 11.03,
-        "ma200_d": 49.03,
-        "ma200_w": null
-      },
-      "chart": "charts/6278_TW_daily_20261104.html",
-      "chart_daily": "charts/6278_TW_daily_20261104.html",
-      "chart_weekly": "charts/6278_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/6278_TW_daily_20261104.html",
-        "weekly": "charts/6278_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "6278.TW",
-      "raw_code": "6278",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "台表科",
-      "date": "2026-10-30",
-      "close": 252.5,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 38.3,
-      "ma_dist": {
-        "ma10": -6.05,
-        "ma20": -6.92,
-        "ma50": 11.03,
-        "ma200_d": 49.03,
-        "ma200_w": null
-      },
-      "chart": "charts/6278_TW_daily_20261104.html",
-      "chart_daily": "charts/6278_TW_daily_20261104.html",
-      "chart_weekly": "charts/6278_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/6278_TW_daily_20261104.html",
-        "weekly": "charts/6278_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "1711.TW",
-      "raw_code": "1711",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "永光",
-      "date": "2026-10-30",
-      "close": 39.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 38.42,
-      "ma_dist": {
-        "ma10": -5.04,
-        "ma20": -9.42,
-        "ma50": -6.56,
-        "ma200_d": -1.01,
-        "ma200_w": null
-      },
-      "chart": "charts/1711_TW_daily_20261104.html",
-      "chart_daily": "charts/1711_TW_daily_20261104.html",
-      "chart_weekly": "charts/1711_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/1711_TW_daily_20261104.html",
-        "weekly": "charts/1711_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "2383.TW",
-      "raw_code": "2383",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "台光電",
-      "date": "2026-10-30",
-      "close": 4675.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 38.51,
-      "ma_dist": {
-        "ma10": -3.1,
-        "ma20": -9.89,
-        "ma50": -10.87,
-        "ma200_d": 10.4,
-        "ma200_w": null
-      },
-      "chart": "charts/2383_TW_daily_20261104.html",
-      "chart_daily": "charts/2383_TW_daily_20261104.html",
-      "chart_weekly": "charts/2383_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/2383_TW_daily_20261104.html",
-        "weekly": "charts/2383_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "3034.TW",
-      "raw_code": "3034",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "聯詠",
-      "date": "2026-10-30",
-      "close": 575.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 38.73,
-      "ma_dist": {
-        "ma10": -0.57,
-        "ma20": 1.68,
-        "ma50": 4.03,
-        "ma200_d": 21.52,
-        "ma200_w": null
-      },
-      "chart": "charts/3034_TW_daily_20261104.html",
-      "chart_daily": "charts/3034_TW_daily_20261104.html",
-      "chart_weekly": "charts/3034_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/3034_TW_daily_20261104.html",
-        "weekly": "charts/3034_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2128,23 +2218,203 @@
       "close": 157.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 39.19,
+      "rsi": 31.36,
       "ma_dist": {
-        "ma10": -1.75,
-        "ma20": -1.04,
-        "ma50": 1.96,
-        "ma200_d": 25.8,
+        "ma10": -0.35,
+        "ma20": -0.65,
+        "ma50": 1.95,
+        "ma200_d": 25.56,
         "ma200_w": null
       },
-      "chart": "charts/2377_TW_daily_20261104.html",
-      "chart_daily": "charts/2377_TW_daily_20261104.html",
+      "chart": "charts/2377_TW_daily_20261105.html",
+      "chart_daily": "charts/2377_TW_daily_20261105.html",
       "chart_weekly": "charts/2377_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2377_TW_daily_20261104.html",
+        "daily": "charts/2377_TW_daily_20261105.html",
         "weekly": "charts/2377_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "2383.TW",
+      "raw_code": "2383",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "台光電",
+      "date": "2026-10-30",
+      "close": 4675.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 31.8,
+      "ma_dist": {
+        "ma10": -1.28,
+        "ma20": -8.21,
+        "ma50": -10.33,
+        "ma200_d": 10.08,
+        "ma200_w": null
+      },
+      "chart": "charts/2383_TW_daily_20261105.html",
+      "chart_daily": "charts/2383_TW_daily_20261105.html",
+      "chart_weekly": "charts/2383_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/2383_TW_daily_20261105.html",
+        "weekly": "charts/2383_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "3189.TW",
+      "raw_code": "3189",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "景碩",
+      "date": "2026-10-30",
+      "close": 932.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 31.9,
+      "ma_dist": {
+        "ma10": 2.08,
+        "ma20": -3.77,
+        "ma50": 1.96,
+        "ma200_d": 50.95,
+        "ma200_w": null
+      },
+      "chart": "charts/3189_TW_daily_20261105.html",
+      "chart_daily": "charts/3189_TW_daily_20261105.html",
+      "chart_weekly": "charts/3189_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/3189_TW_daily_20261105.html",
+        "weekly": "charts/3189_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6147.TWO",
+      "raw_code": "6147",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "頎邦",
+      "date": "2026-10-30",
+      "close": 196.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 31.98,
+      "ma_dist": {
+        "ma10": 1.5,
+        "ma20": -4.77,
+        "ma50": -2.61,
+        "ma200_d": 25.27,
+        "ma200_w": null
+      },
+      "chart": "charts/6147_TWO_daily_20261105.html",
+      "chart_daily": "charts/6147_TWO_daily_20261105.html",
+      "chart_weekly": "charts/6147_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6147_TWO_daily_20261105.html",
+        "weekly": "charts/6147_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6207.TWO",
+      "raw_code": "6207",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "雷科",
+      "date": "2026-10-30",
+      "close": 119.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 31.99,
+      "ma_dist": {
+        "ma10": -1.82,
+        "ma20": -7.98,
+        "ma50": -2.8,
+        "ma200_d": 25.09,
+        "ma200_w": null
+      },
+      "chart": "charts/6207_TWO_daily_20261105.html",
+      "chart_daily": "charts/6207_TWO_daily_20261105.html",
+      "chart_weekly": "charts/6207_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6207_TWO_daily_20261105.html",
+        "weekly": "charts/6207_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "3034.TW",
+      "raw_code": "3034",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "聯詠",
+      "date": "2026-10-30",
+      "close": 575.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 32.99,
+      "ma_dist": {
+        "ma10": 0.82,
+        "ma20": 1.92,
+        "ma50": 4.11,
+        "ma200_d": 21.35,
+        "ma200_w": null
+      },
+      "chart": "charts/3034_TW_daily_20261105.html",
+      "chart_daily": "charts/3034_TW_daily_20261105.html",
+      "chart_weekly": "charts/3034_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/3034_TW_daily_20261105.html",
+        "weekly": "charts/3034_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "3023.TW",
+      "raw_code": "3023",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "信邦",
+      "date": "2026-10-30",
+      "close": 250.0,
+      "pattern": "大陰線",
+      "direction": "賣出",
+      "rsi": 33.03,
+      "ma_dist": {
+        "ma10": -5.75,
+        "ma20": -14.13,
+        "ma50": -18.96,
+        "ma200_d": -12.37,
+        "ma200_w": null
+      },
+      "chart": "charts/3023_TW_daily_20261105.html",
+      "chart_daily": "charts/3023_TW_daily_20261105.html",
+      "chart_weekly": "charts/3023_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/3023_TW_daily_20261105.html",
+        "weekly": "charts/3023_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2158,83 +2428,53 @@
       "close": 253.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 39.35,
+      "rsi": 33.29,
       "ma_dist": {
-        "ma10": -3.89,
-        "ma20": -8.0,
-        "ma50": -7.5,
-        "ma200_d": -8.28,
+        "ma10": -2.05,
+        "ma20": -6.83,
+        "ma50": -7.48,
+        "ma200_d": -8.23,
         "ma200_w": null
       },
-      "chart": "charts/2449_TW_daily_20261104.html",
-      "chart_daily": "charts/2449_TW_daily_20261104.html",
+      "chart": "charts/2449_TW_daily_20261105.html",
+      "chart_daily": "charts/2449_TW_daily_20261105.html",
       "chart_weekly": "charts/2449_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/2449_TW_daily_20261104.html",
+        "daily": "charts/2449_TW_daily_20261105.html",
         "weekly": "charts/2449_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "6715.TW",
-      "raw_code": "6715",
-      "market": "TWSE",
+      "code": "4542.TWO",
+      "raw_code": "4542",
+      "market": "TPEx",
       "kind": "weekly",
-      "name": "嘉基",
+      "name": "科嶠",
       "date": "2026-10-30",
-      "close": 462.0,
+      "close": 332.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 39.7,
+      "rsi": 33.35,
       "ma_dist": {
-        "ma10": 2.33,
-        "ma20": -2.63,
-        "ma50": 9.46,
-        "ma200_d": 28.4,
+        "ma10": 2.04,
+        "ma20": -2.65,
+        "ma50": 6.03,
+        "ma200_d": 32.72,
         "ma200_w": null
       },
-      "chart": "charts/6715_TW_daily_20261104.html",
-      "chart_daily": "charts/6715_TW_daily_20261104.html",
-      "chart_weekly": "charts/6715_TW_weekly_20261030.html",
+      "chart": "charts/4542_TWO_daily_20261105.html",
+      "chart_daily": "charts/4542_TWO_daily_20261105.html",
+      "chart_weekly": "charts/4542_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6715_TW_daily_20261104.html",
-        "weekly": "charts/6715_TW_weekly_20261030.html"
+        "daily": "charts/4542_TWO_daily_20261105.html",
+        "weekly": "charts/4542_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "6213.TW",
-      "raw_code": "6213",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "聯茂",
-      "date": "2026-10-30",
-      "close": 687.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 39.71,
-      "ma_dist": {
-        "ma10": -4.6,
-        "ma20": -9.26,
-        "ma50": 8.17,
-        "ma200_d": 102.15,
-        "ma200_w": null
-      },
-      "chart": "charts/6213_TW_daily_20261104.html",
-      "chart_daily": "charts/6213_TW_daily_20261104.html",
-      "chart_weekly": "charts/6213_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/6213_TW_daily_20261104.html",
-        "weekly": "charts/6213_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2248,23 +2488,113 @@
       "close": 120.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 39.92,
+      "rsi": 33.52,
       "ma_dist": {
-        "ma10": -5.18,
-        "ma20": -8.19,
-        "ma50": -4.41,
-        "ma200_d": -19.14,
+        "ma10": -2.76,
+        "ma20": -7.14,
+        "ma50": -4.36,
+        "ma200_d": -19.1,
         "ma200_w": null
       },
-      "chart": "charts/3715_TW_daily_20261104.html",
-      "chart_daily": "charts/3715_TW_daily_20261104.html",
+      "chart": "charts/3715_TW_daily_20261105.html",
+      "chart_daily": "charts/3715_TW_daily_20261105.html",
       "chart_weekly": "charts/3715_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3715_TW_daily_20261104.html",
+        "daily": "charts/3715_TW_daily_20261105.html",
         "weekly": "charts/3715_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "1711.TW",
+      "raw_code": "1711",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "永光",
+      "date": "2026-10-30",
+      "close": 39.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 33.58,
+      "ma_dist": {
+        "ma10": -1.86,
+        "ma20": -7.85,
+        "ma50": -6.28,
+        "ma200_d": -1.16,
+        "ma200_w": null
+      },
+      "chart": "charts/1711_TW_daily_20261105.html",
+      "chart_daily": "charts/1711_TW_daily_20261105.html",
+      "chart_weekly": "charts/1711_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/1711_TW_daily_20261105.html",
+        "weekly": "charts/1711_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6278.TW",
+      "raw_code": "6278",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "台表科",
+      "date": "2026-10-30",
+      "close": 252.5,
+      "pattern": "大陰線",
+      "direction": "賣出",
+      "rsi": 33.68,
+      "ma_dist": {
+        "ma10": -1.77,
+        "ma20": -6.33,
+        "ma50": 10.91,
+        "ma200_d": 48.58,
+        "ma200_w": null
+      },
+      "chart": "charts/6278_TW_daily_20261105.html",
+      "chart_daily": "charts/6278_TW_daily_20261105.html",
+      "chart_weekly": "charts/6278_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6278_TW_daily_20261105.html",
+        "weekly": "charts/6278_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6278.TW",
+      "raw_code": "6278",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "台表科",
+      "date": "2026-10-30",
+      "close": 252.5,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 33.68,
+      "ma_dist": {
+        "ma10": -1.77,
+        "ma20": -6.33,
+        "ma50": 10.91,
+        "ma200_d": 48.58,
+        "ma200_w": null
+      },
+      "chart": "charts/6278_TW_daily_20261105.html",
+      "chart_daily": "charts/6278_TW_daily_20261105.html",
+      "chart_weekly": "charts/6278_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6278_TW_daily_20261105.html",
+        "weekly": "charts/6278_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2278,53 +2608,83 @@
       "close": 60.4,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 41.67,
+      "rsi": 33.98,
       "ma_dist": {
-        "ma10": -6.76,
-        "ma20": -9.9,
-        "ma50": -5.73,
-        "ma200_d": -17.99,
+        "ma10": -4.64,
+        "ma20": -8.97,
+        "ma50": -5.51,
+        "ma200_d": -18.01,
         "ma200_w": null
       },
-      "chart": "charts/4989_TW_daily_20261104.html",
-      "chart_daily": "charts/4989_TW_daily_20261104.html",
+      "chart": "charts/4989_TW_daily_20261105.html",
+      "chart_daily": "charts/4989_TW_daily_20261105.html",
       "chart_weekly": "charts/4989_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/4989_TW_daily_20261104.html",
+        "daily": "charts/4989_TW_daily_20261105.html",
         "weekly": "charts/4989_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "8069.TWO",
-      "raw_code": "8069",
-      "market": "TPEx",
+      "code": "2409.TW",
+      "raw_code": "2409",
+      "market": "TWSE",
       "kind": "weekly",
-      "name": "元太",
+      "name": "友達",
       "date": "2026-10-30",
-      "close": 149.0,
+      "close": 30.65,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 41.69,
+      "rsi": 34.15,
       "ma_dist": {
-        "ma10": -1.84,
-        "ma20": -1.28,
-        "ma50": -0.82,
-        "ma200_d": -13.36,
+        "ma10": -4.34,
+        "ma20": -10.04,
+        "ma50": -4.58,
+        "ma200_d": 29.92,
         "ma200_w": null
       },
-      "chart": "charts/8069_TWO_daily_20261104.html",
-      "chart_daily": "charts/8069_TWO_daily_20261104.html",
-      "chart_weekly": "charts/8069_TWO_weekly_20261030.html",
+      "chart": "charts/2409_TW_daily_20261105.html",
+      "chart_daily": "charts/2409_TW_daily_20261105.html",
+      "chart_weekly": "charts/2409_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/8069_TWO_daily_20261104.html",
-        "weekly": "charts/8069_TWO_weekly_20261030.html"
+        "daily": "charts/2409_TW_daily_20261105.html",
+        "weekly": "charts/2409_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6213.TW",
+      "raw_code": "6213",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "聯茂",
+      "date": "2026-10-30",
+      "close": 687.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 34.43,
+      "ma_dist": {
+        "ma10": -0.85,
+        "ma20": -7.82,
+        "ma50": 8.04,
+        "ma200_d": 100.87,
+        "ma200_w": null
+      },
+      "chart": "charts/6213_TW_daily_20261105.html",
+      "chart_daily": "charts/6213_TW_daily_20261105.html",
+      "chart_weekly": "charts/6213_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6213_TW_daily_20261105.html",
+        "weekly": "charts/6213_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2338,23 +2698,113 @@
       "close": 765.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 42.46,
+      "rsi": 35.33,
       "ma_dist": {
-        "ma10": 0.08,
-        "ma20": -1.83,
-        "ma50": 6.11,
-        "ma200_d": 26.2,
+        "ma10": 2.01,
+        "ma20": -0.68,
+        "ma50": 5.85,
+        "ma200_d": 25.98,
         "ma200_w": null
       },
-      "chart": "charts/6526_TW_daily_20261104.html",
-      "chart_daily": "charts/6526_TW_daily_20261104.html",
+      "chart": "charts/6526_TW_daily_20261105.html",
+      "chart_daily": "charts/6526_TW_daily_20261105.html",
       "chart_weekly": "charts/6526_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6526_TW_daily_20261104.html",
+        "daily": "charts/6526_TW_daily_20261105.html",
         "weekly": "charts/6526_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6715.TW",
+      "raw_code": "6715",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "嘉基",
+      "date": "2026-10-30",
+      "close": 462.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 36.28,
+      "ma_dist": {
+        "ma10": 4.89,
+        "ma20": -1.46,
+        "ma50": 9.87,
+        "ma200_d": 27.92,
+        "ma200_w": null
+      },
+      "chart": "charts/6715_TW_daily_20261105.html",
+      "chart_daily": "charts/6715_TW_daily_20261105.html",
+      "chart_weekly": "charts/6715_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6715_TW_daily_20261105.html",
+        "weekly": "charts/6715_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "3714.TW",
+      "raw_code": "3714",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "富采",
+      "date": "2026-10-30",
+      "close": 107.19,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 36.63,
+      "ma_dist": {
+        "ma10": -4.22,
+        "ma20": -6.76,
+        "ma50": -8.66,
+        "ma200_d": 1.45,
+        "ma200_w": null
+      },
+      "chart": "charts/3714_TW_daily_20261105.html",
+      "chart_daily": "charts/3714_TW_daily_20261105.html",
+      "chart_weekly": "charts/3714_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/3714_TW_daily_20261105.html",
+        "weekly": "charts/3714_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6409.TW",
+      "raw_code": "6409",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "旭隼",
+      "date": "2026-10-30",
+      "close": 882.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 36.64,
+      "ma_dist": {
+        "ma10": -1.01,
+        "ma20": -0.84,
+        "ma50": -3.76,
+        "ma200_d": -1.22,
+        "ma200_w": null
+      },
+      "chart": "charts/6409_TW_daily_20261105.html",
+      "chart_daily": "charts/6409_TW_daily_20261105.html",
+      "chart_weekly": "charts/6409_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6409_TW_daily_20261105.html",
+        "weekly": "charts/6409_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2368,143 +2818,53 @@
       "close": 67.3,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 42.86,
+      "rsi": 36.74,
       "ma_dist": {
-        "ma10": -4.78,
-        "ma20": -6.48,
-        "ma50": -2.18,
-        "ma200_d": 8.91,
+        "ma10": -2.69,
+        "ma20": -5.42,
+        "ma50": -2.11,
+        "ma200_d": 8.74,
         "ma200_w": null
       },
-      "chart": "charts/3673_TW_daily_20261104.html",
-      "chart_daily": "charts/3673_TW_daily_20261104.html",
+      "chart": "charts/3673_TW_daily_20261105.html",
+      "chart_daily": "charts/3673_TW_daily_20261105.html",
       "chart_weekly": "charts/3673_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3673_TW_daily_20261104.html",
+        "daily": "charts/3673_TW_daily_20261105.html",
         "weekly": "charts/3673_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "00713.TW",
-      "raw_code": "00713",
-      "market": "TWSE",
+      "code": "8069.TWO",
+      "raw_code": "8069",
+      "market": "TPEx",
       "kind": "weekly",
-      "name": "元大台灣高息低波",
+      "name": "元太",
       "date": "2026-10-30",
-      "close": 65.7,
+      "close": 149.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 43.32,
+      "rsi": 38.18,
       "ma_dist": {
-        "ma10": 0.31,
-        "ma20": 1.18,
-        "ma50": 2.93,
-        "ma200_d": 13.77,
+        "ma10": -0.9,
+        "ma20": -1.01,
+        "ma50": -0.56,
+        "ma200_d": -13.24,
         "ma200_w": null
       },
-      "chart": "charts/00713_TW_daily_20261104.html",
-      "chart_daily": "charts/00713_TW_daily_20261104.html",
-      "chart_weekly": "charts/00713_TW_weekly_20261030.html",
+      "chart": "charts/8069_TWO_daily_20261105.html",
+      "chart_daily": "charts/8069_TWO_daily_20261105.html",
+      "chart_weekly": "charts/8069_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/00713_TW_daily_20261104.html",
-        "weekly": "charts/00713_TW_weekly_20261030.html"
+        "daily": "charts/8069_TWO_daily_20261105.html",
+        "weekly": "charts/8069_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "2002.TW",
-      "raw_code": "2002",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "中鋼",
-      "date": "2026-10-30",
-      "close": 19.25,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 45.8,
-      "ma_dist": {
-        "ma10": -1.18,
-        "ma20": -0.62,
-        "ma50": 0.66,
-        "ma200_d": 0.11,
-        "ma200_w": null
-      },
-      "chart": "charts/2002_TW_daily_20261104.html",
-      "chart_daily": "charts/2002_TW_daily_20261104.html",
-      "chart_weekly": "charts/2002_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/2002_TW_daily_20261104.html",
-        "weekly": "charts/2002_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "8996.TW",
-      "raw_code": "8996",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "高力",
-      "date": "2026-10-30",
-      "close": 1435.0,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 46.07,
-      "ma_dist": {
-        "ma10": -5.03,
-        "ma20": -8.44,
-        "ma50": 0.1,
-        "ma200_d": 26.97,
-        "ma200_w": null
-      },
-      "chart": "charts/8996_TW_daily_20261104.html",
-      "chart_daily": "charts/8996_TW_daily_20261104.html",
-      "chart_weekly": "charts/8996_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/8996_TW_daily_20261104.html",
-        "weekly": "charts/8996_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "1709.TW",
-      "raw_code": "1709",
-      "market": "TWSE",
-      "kind": "weekly",
-      "name": "和益",
-      "date": "2026-10-30",
-      "close": 48.1,
-      "pattern": "看跌吞沒",
-      "direction": "賣出",
-      "rsi": 46.8,
-      "ma_dist": {
-        "ma10": -5.78,
-        "ma20": -12.46,
-        "ma50": 4.69,
-        "ma200_d": 79.65,
-        "ma200_w": null
-      },
-      "chart": "charts/1709_TW_daily_20261104.html",
-      "chart_daily": "charts/1709_TW_daily_20261104.html",
-      "chart_weekly": "charts/1709_TW_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/1709_TW_daily_20261104.html",
-        "weekly": "charts/1709_TW_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2518,23 +2878,53 @@
       "close": 296.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 46.88,
+      "rsi": 39.94,
       "ma_dist": {
-        "ma10": -1.19,
-        "ma20": -3.02,
-        "ma50": 13.38,
-        "ma200_d": 97.53,
+        "ma10": 1.23,
+        "ma20": -2.32,
+        "ma50": 12.88,
+        "ma200_d": 96.29,
         "ma200_w": null
       },
-      "chart": "charts/1303_TW_daily_20261104.html",
-      "chart_daily": "charts/1303_TW_daily_20261104.html",
+      "chart": "charts/1303_TW_daily_20261105.html",
+      "chart_daily": "charts/1303_TW_daily_20261105.html",
       "chart_weekly": "charts/1303_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/1303_TW_daily_20261104.html",
+        "daily": "charts/1303_TW_daily_20261105.html",
         "weekly": "charts/1303_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "8996.TW",
+      "raw_code": "8996",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "高力",
+      "date": "2026-10-30",
+      "close": 1435.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 40.08,
+      "ma_dist": {
+        "ma10": -2.65,
+        "ma20": -7.52,
+        "ma50": -0.18,
+        "ma200_d": 26.57,
+        "ma200_w": null
+      },
+      "chart": "charts/8996_TW_daily_20261105.html",
+      "chart_daily": "charts/8996_TW_daily_20261105.html",
+      "chart_weekly": "charts/8996_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/8996_TW_daily_20261105.html",
+        "weekly": "charts/8996_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2548,23 +2938,23 @@
       "close": 177.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 47.38,
+      "rsi": 40.4,
       "ma_dist": {
-        "ma10": -6.96,
-        "ma20": -9.94,
-        "ma50": -6.07,
-        "ma200_d": -15.0,
+        "ma10": -4.58,
+        "ma20": -9.6,
+        "ma50": -5.99,
+        "ma200_d": -15.16,
         "ma200_w": null
       },
-      "chart": "charts/5475_TWO_daily_20261104.html",
-      "chart_daily": "charts/5475_TWO_daily_20261104.html",
+      "chart": "charts/5475_TWO_daily_20261105.html",
+      "chart_daily": "charts/5475_TWO_daily_20261105.html",
       "chart_weekly": "charts/5475_TWO_weekly_20261030.html",
       "charts": {
-        "daily": "charts/5475_TWO_daily_20261104.html",
+        "daily": "charts/5475_TWO_daily_20261105.html",
         "weekly": "charts/5475_TWO_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2578,83 +2968,113 @@
       "close": 161.5,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 48.45,
+      "rsi": 40.85,
       "ma_dist": {
-        "ma10": -2.09,
-        "ma20": -4.54,
-        "ma50": 6.3,
-        "ma200_d": 70.1,
+        "ma10": -0.03,
+        "ma20": -3.74,
+        "ma50": 5.8,
+        "ma200_d": 69.37,
         "ma200_w": null
       },
-      "chart": "charts/3605_TW_daily_20261104.html",
-      "chart_daily": "charts/3605_TW_daily_20261104.html",
+      "chart": "charts/3605_TW_daily_20261105.html",
+      "chart_daily": "charts/3605_TW_daily_20261105.html",
       "chart_weekly": "charts/3605_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/3605_TW_daily_20261104.html",
+        "daily": "charts/3605_TW_daily_20261105.html",
         "weekly": "charts/3605_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "6672.TW",
-      "raw_code": "6672",
+      "code": "2002.TW",
+      "raw_code": "2002",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "騰輝電子-KY",
+      "name": "中鋼",
       "date": "2026-10-30",
-      "close": 526.0,
+      "close": 19.25,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 54.41,
+      "rsi": 40.95,
       "ma_dist": {
-        "ma10": -4.99,
-        "ma20": -5.03,
-        "ma50": 29.4,
-        "ma200_d": 121.99,
+        "ma10": -0.85,
+        "ma20": -0.62,
+        "ma50": 0.72,
+        "ma200_d": 0.1,
         "ma200_w": null
       },
-      "chart": "charts/6672_TW_daily_20261104.html",
-      "chart_daily": "charts/6672_TW_daily_20261104.html",
-      "chart_weekly": "charts/6672_TW_weekly_20261030.html",
+      "chart": "charts/2002_TW_daily_20261105.html",
+      "chart_daily": "charts/2002_TW_daily_20261105.html",
+      "chart_weekly": "charts/2002_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6672_TW_daily_20261104.html",
-        "weekly": "charts/6672_TW_weekly_20261030.html"
+        "daily": "charts/2002_TW_daily_20261105.html",
+        "weekly": "charts/2002_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "7711.TW",
-      "raw_code": "7711",
+      "code": "00713.TW",
+      "raw_code": "00713",
       "market": "TWSE",
       "kind": "weekly",
-      "name": "永擎",
+      "name": "元大台灣高息低波",
       "date": "2026-10-30",
-      "close": 548.0,
+      "close": 65.7,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 56.43,
+      "rsi": 41.61,
       "ma_dist": {
-        "ma10": -3.83,
-        "ma20": -5.98,
-        "ma50": -2.98,
-        "ma200_d": 45.1,
+        "ma10": 0.54,
+        "ma20": 1.11,
+        "ma50": 2.85,
+        "ma200_d": 13.64,
         "ma200_w": null
       },
-      "chart": "charts/7711_TW_daily_20261104.html",
-      "chart_daily": "charts/7711_TW_daily_20261104.html",
-      "chart_weekly": "charts/7711_TW_weekly_20261030.html",
+      "chart": "charts/00713_TW_daily_20261105.html",
+      "chart_daily": "charts/00713_TW_daily_20261105.html",
+      "chart_weekly": "charts/00713_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/7711_TW_daily_20261104.html",
-        "weekly": "charts/7711_TW_weekly_20261030.html"
+        "daily": "charts/00713_TW_daily_20261105.html",
+        "weekly": "charts/00713_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "1709.TW",
+      "raw_code": "1709",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "和益",
+      "date": "2026-10-30",
+      "close": 48.1,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 43.43,
+      "ma_dist": {
+        "ma10": -3.86,
+        "ma20": -11.04,
+        "ma50": 4.13,
+        "ma200_d": 78.68,
+        "ma200_w": null
+      },
+      "chart": "charts/1709_TW_daily_20261105.html",
+      "chart_daily": "charts/1709_TW_daily_20261105.html",
+      "chart_weekly": "charts/1709_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/1709_TW_daily_20261105.html",
+        "weekly": "charts/1709_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2668,83 +3088,53 @@
       "close": 62.3,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 57.0,
+      "rsi": 43.55,
       "ma_dist": {
-        "ma10": -4.83,
-        "ma20": -4.1,
-        "ma50": 1.46,
-        "ma200_d": 4.34,
+        "ma10": -3.78,
+        "ma20": -4.12,
+        "ma50": 1.37,
+        "ma200_d": 4.12,
         "ma200_w": null
       },
-      "chart": "charts/1802_TW_daily_20261104.html",
-      "chart_daily": "charts/1802_TW_daily_20261104.html",
+      "chart": "charts/1802_TW_daily_20261105.html",
+      "chart_daily": "charts/1802_TW_daily_20261105.html",
       "chart_weekly": "charts/1802_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/1802_TW_daily_20261104.html",
+        "daily": "charts/1802_TW_daily_20261105.html",
         "weekly": "charts/1802_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
     {
-      "code": "6148.TWO",
-      "raw_code": "6148",
-      "market": "TPEx",
+      "code": "6672.TW",
+      "raw_code": "6672",
+      "market": "TWSE",
       "kind": "weekly",
-      "name": "驊宏資",
+      "name": "騰輝電子-KY",
       "date": "2026-10-30",
-      "close": 38.5,
-      "pattern": "大陰線",
-      "direction": "賣出",
-      "rsi": 62.35,
-      "ma_dist": {
-        "ma10": -7.46,
-        "ma20": -3.91,
-        "ma50": 8.03,
-        "ma200_d": 14.85,
-        "ma200_w": null
-      },
-      "chart": "charts/6148_TWO_daily_20261104.html",
-      "chart_daily": "charts/6148_TWO_daily_20261104.html",
-      "chart_weekly": "charts/6148_TWO_weekly_20261030.html",
-      "charts": {
-        "daily": "charts/6148_TWO_daily_20261104.html",
-        "weekly": "charts/6148_TWO_weekly_20261030.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-04",
-        "weekly": "2026-10-30"
-      }
-    },
-    {
-      "code": "6148.TWO",
-      "raw_code": "6148",
-      "market": "TPEx",
-      "kind": "weekly",
-      "name": "驊宏資",
-      "date": "2026-10-30",
-      "close": 38.5,
+      "close": 526.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 62.35,
+      "rsi": 46.9,
       "ma_dist": {
-        "ma10": -7.46,
-        "ma20": -3.91,
-        "ma50": 8.03,
-        "ma200_d": 14.85,
+        "ma10": -2.33,
+        "ma20": -5.18,
+        "ma50": 28.08,
+        "ma200_d": 120.2,
         "ma200_w": null
       },
-      "chart": "charts/6148_TWO_daily_20261104.html",
-      "chart_daily": "charts/6148_TWO_daily_20261104.html",
-      "chart_weekly": "charts/6148_TWO_weekly_20261030.html",
+      "chart": "charts/6672_TW_daily_20261105.html",
+      "chart_daily": "charts/6672_TW_daily_20261105.html",
+      "chart_weekly": "charts/6672_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/6148_TWO_daily_20261104.html",
-        "weekly": "charts/6148_TWO_weekly_20261030.html"
+        "daily": "charts/6672_TW_daily_20261105.html",
+        "weekly": "charts/6672_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     },
@@ -2758,23 +3148,113 @@
       "close": 114.0,
       "pattern": "看跌吞沒",
       "direction": "賣出",
-      "rsi": 62.61,
+      "rsi": 56.6,
       "ma_dist": {
-        "ma10": 0.44,
-        "ma20": 2.54,
-        "ma50": 6.68,
-        "ma200_d": 14.62,
+        "ma10": 0.4,
+        "ma20": 2.17,
+        "ma50": 6.48,
+        "ma200_d": 14.49,
         "ma200_w": null
       },
-      "chart": "charts/4904_TW_daily_20261104.html",
-      "chart_daily": "charts/4904_TW_daily_20261104.html",
+      "chart": "charts/4904_TW_daily_20261105.html",
+      "chart_daily": "charts/4904_TW_daily_20261105.html",
       "chart_weekly": "charts/4904_TW_weekly_20261030.html",
       "charts": {
-        "daily": "charts/4904_TW_daily_20261104.html",
+        "daily": "charts/4904_TW_daily_20261105.html",
         "weekly": "charts/4904_TW_weekly_20261030.html"
       },
       "chart_focus_dates": {
-        "daily": "2026-11-04",
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6148.TWO",
+      "raw_code": "6148",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "驊宏資",
+      "date": "2026-10-30",
+      "close": 38.5,
+      "pattern": "大陰線",
+      "direction": "賣出",
+      "rsi": 59.96,
+      "ma_dist": {
+        "ma10": -8.17,
+        "ma20": -4.59,
+        "ma50": 7.08,
+        "ma200_d": 14.79,
+        "ma200_w": null
+      },
+      "chart": "charts/6148_TWO_daily_20261105.html",
+      "chart_daily": "charts/6148_TWO_daily_20261105.html",
+      "chart_weekly": "charts/6148_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6148_TWO_daily_20261105.html",
+        "weekly": "charts/6148_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "6148.TWO",
+      "raw_code": "6148",
+      "market": "TPEx",
+      "kind": "weekly",
+      "name": "驊宏資",
+      "date": "2026-10-30",
+      "close": 38.5,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 59.96,
+      "ma_dist": {
+        "ma10": -8.17,
+        "ma20": -4.59,
+        "ma50": 7.08,
+        "ma200_d": 14.79,
+        "ma200_w": null
+      },
+      "chart": "charts/6148_TWO_daily_20261105.html",
+      "chart_daily": "charts/6148_TWO_daily_20261105.html",
+      "chart_weekly": "charts/6148_TWO_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/6148_TWO_daily_20261105.html",
+        "weekly": "charts/6148_TWO_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
+        "weekly": "2026-10-30"
+      }
+    },
+    {
+      "code": "7711.TW",
+      "raw_code": "7711",
+      "market": "TWSE",
+      "kind": "weekly",
+      "name": "永擎",
+      "date": "2026-10-30",
+      "close": 548.0,
+      "pattern": "看跌吞沒",
+      "direction": "賣出",
+      "rsi": 61.08,
+      "ma_dist": {
+        "ma10": -4.61,
+        "ma20": -6.04,
+        "ma50": -3.55,
+        "ma200_d": 44.4,
+        "ma200_w": null
+      },
+      "chart": "charts/7711_TW_daily_20261105.html",
+      "chart_daily": "charts/7711_TW_daily_20261105.html",
+      "chart_weekly": "charts/7711_TW_weekly_20261030.html",
+      "charts": {
+        "daily": "charts/7711_TW_daily_20261105.html",
+        "weekly": "charts/7711_TW_weekly_20261030.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-05",
         "weekly": "2026-10-30"
       }
     }
