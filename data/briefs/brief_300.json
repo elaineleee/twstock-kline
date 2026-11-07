@@ -1,14 +1,14 @@
 {
   "universe_size": 300,
-  "generated_date": "2026-11-06",
-  "generated_date_pretty": "Friday · 06 November 2026",
-  "today": "2026-11-06",
-  "today_pretty": "Friday · 06 November 2026",
+  "generated_date": "2026-11-07",
+  "generated_date_pretty": "Saturday · 07 November 2026",
+  "today": "2026-11-07",
+  "today_pretty": "Saturday · 07 November 2026",
   "signal_date": "2026-11-06",
   "signal_date_pretty": "Friday · 06 November 2026",
   "weekly_signal_date": "2026-11-06",
   "weekly_signal_date_pretty": "週始 06 November 2026",
-  "run_time": "14:29",
+  "run_time": "13:23",
   "freshness": {
     "ok": 300,
     "fail": 0,
@@ -1660,6 +1660,36 @@
       "charts": {
         "daily": "charts/3583_TW_daily_20261106.html",
         "weekly": "charts/3583_TW_weekly_20261106.html"
+      },
+      "chart_focus_dates": {
+        "daily": "2026-11-06",
+        "weekly": "2026-11-06"
+      }
+    },
+    {
+      "code": "1513.TW",
+      "raw_code": "1513",
+      "market": "TWSE",
+      "kind": "daily",
+      "name": "中興電",
+      "date": "2026-11-06",
+      "close": 138.5,
+      "pattern": "向下窗口",
+      "direction": "賣出",
+      "rsi": 16.63,
+      "ma_dist": {
+        "ma10": -8.79,
+        "ma20": -12.44,
+        "ma50": -14.93,
+        "ma200_d": -14.64,
+        "ma200_w": null
+      },
+      "chart": "charts/1513_TW_daily_20261106.html",
+      "chart_daily": "charts/1513_TW_daily_20261106.html",
+      "chart_weekly": "charts/1513_TW_weekly_20261106.html",
+      "charts": {
+        "daily": "charts/1513_TW_daily_20261106.html",
+        "weekly": "charts/1513_TW_weekly_20261106.html"
       },
       "chart_focus_dates": {
         "daily": "2026-11-06",
@@ -8020,36 +8050,6 @@
       "charts": {
         "daily": "charts/2615_TW_daily_20261106.html",
         "weekly": "charts/2615_TW_weekly_20261106.html"
-      },
-      "chart_focus_dates": {
-        "daily": "2026-11-06",
-        "weekly": "2026-11-06"
-      }
-    },
-    {
-      "code": "6668.TW",
-      "raw_code": "6668",
-      "market": "TWSE",
-      "kind": "daily",
-      "name": "中揚光",
-      "date": "2026-11-06",
-      "close": 43.75,
-      "pattern": "向下窗口",
-      "direction": "賣出",
-      "rsi": 38.54,
-      "ma_dist": {
-        "ma10": -14.21,
-        "ma20": -20.72,
-        "ma50": -10.37,
-        "ma200_d": 9.51,
-        "ma200_w": null
-      },
-      "chart": "charts/6668_TW_daily_20261106.html",
-      "chart_daily": "charts/6668_TW_daily_20261106.html",
-      "chart_weekly": "charts/6668_TW_weekly_20261106.html",
-      "charts": {
-        "daily": "charts/6668_TW_daily_20261106.html",
-        "weekly": "charts/6668_TW_weekly_20261106.html"
       },
       "chart_focus_dates": {
         "daily": "2026-11-06",
